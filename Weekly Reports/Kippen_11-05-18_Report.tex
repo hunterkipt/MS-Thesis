@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}%
+\usepackage{graphics, graphicx, cite, fancybox, setspace}
+\usepackage{color}
+\usepackage{boxedminipage}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{url}
+\usepackage{wrapfig,sectsty}
+\usepackage[letterpaper, left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{multirow}
+\usepackage{times}
+\usepackage{verbatim}
+\usepackage{epsfig}
+\usepackage{subcaption}
+
+%
+\usepackage{array}
+\usepackage{rotating}
+
+
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{titlesec}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\titleformat{\section}
+  {\normalfont\fontsize{14}{1em}\bfseries}{\thesection}{1em}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\bi{\begin{itemize}     % Begin Itemize
+\vspace{-0.5em}\setlength\itemsep{0em}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE 11/05/18 Weekly Report}\\
+\vspace{0.5em}
+{\Large Hunter Kippen}
+\vspace{0.5em}
+\end{center}
+
+
+\section{What I worked on last week}
+\bi
+\item I added file IO to my prediction error program.
+\item I wrote a datset generation script. It's a little rough around the edges, but I can clean up the code to make it a function that can be used to generate larger datasets. Currently it only takes in one input directory and one output directory and generates the dataset. For more advanced experiments, it will need to be modified in a few places, but nothing too terribly extreme.
+\item I used the dataset generation script to take the 259 videos from the ASUS ZenFone 3 Laser, and delete the first fifteen frames of each then reencode them. The script then generated the prediction error sequences for each video and saved them to similarly named text files. Note that this took several hours to run. For larger experiments, we may need a day or two to generate enough data.
+\item I then coded a starter function to grab the prediction error text files and extract features from the sequence. Currently I am getting the $\hat{s}[n]$ sequence, the average of $e[n]$, and the variance of $e[n]$.
+\item I extracted these features from both the original and frame deleted data and computed the ROC curve associated with it. I plotted the ROC curve, a histogram showing $\hat{s}[n]$ feature separation, and a 3-D scatter plot of all three features to gauge how augmenting the $\hat{s}[n]$ feature with the other ones might help. Currently, it looks like average will help a bit, but variance will probably not be so helpful.
+\end{itemize}
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=\linewidth]{/Users/Hunter/Desktop/MISL/Git/Misl/Frame_Deletion/ROC.png}
+  \caption{ASUS ZenFone 3 ROC Curve}
+  \label{fig:ROC}
+\end{figure}
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=\linewidth]{/Users/Hunter/Desktop/MISL/Git/Misl/Frame_Deletion/HIST.png}
+  \caption{$\hat{s}[n]$ Normalized Histogram for ASUS ZenFone 3}
+  \label{fig:HIST}
+\end{figure}
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=\linewidth]{/Users/Hunter/Desktop/MISL/Git/Misl/Frame_Deletion/feature_scatter_plot.png}
+  \caption{Scatter Plot Showing Feature Separation for Prediction Error Metrics}
+  \label{fig:SCATTER}
+\end{figure}
+
+
+
+\section{Problems I encountered}
+\bi
+\item Not too many problems. Just that LaTex is giving me trouble with the figures. How can I make sure they stay where I defined them in text? I tried using floats, but it doesn't seem to work.
+\end{itemize}
+
+\section{What I plan to do this week}
+\bi
+\item I will look into how to grab motion vectors for each video, and compute the mean magnitude and variance of the magnitude, and see if they might help with separation of the classes.
+\item I will run my dataset generator over another phone model and see if the current results hold.
+\end{itemize}
+
+
+% Bib/refs go here if used
+
+\begin{comment}
+\pagebreak
+%\bibliographystyle{plain}
+\bibliographystyle{myIEEE}
+\bibliography{StammRefs}
+%\bibliography{StammRefs,kandasamy_v2,kandasamy}
+\end{comment}
+
+
+\end{document} 

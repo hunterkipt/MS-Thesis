@@ -1,0 +1,22 @@
+\chapter{Proposed Approach}
+
+\section{Prediction Error Sequence Extraction}
+
+In previous work on frame deletion detection in MPEG-2, the prediction error sequence was extracted directly from the video decoder using the DCT coefficients of the prediction error residuals located in the compressed video file. The prediction error was averaged over all macroblocks in a frame. This prediction error was then stored as a sequence. Due to the nature of the correlation between P-frame prediction errors across a single GOP, any prediction made across GOP boundaries would result in increased prediction error. Wang and Farid showed that for fixed GOP video, the increase in average prediction error is periodic with respect to the number of frames deleted from the video. Stamm's work expands the idea of the prediction error trace by introducing the formulation of a fingerprint signal defined like so:
+
+%TODO Put equations in for the definition of the the fingerprint signal s_hat
+
+This fingerprint signal can be used to build a detector for both variable and fixed GOP videos. Despite this advance in detection, the underlying method for extracting the prediction error sequence is the same.
+
+In MPEG-2, a P-frame is encoded by searching the previous anchor frame for the macroblock which incurs the least error. This means that the average prediction error for a single P-frame is only asssociated with the previous I or P-frame. H.264 expands the capabilities of its motion compensation and estimation system by allowing prediction from multiple previous frames (and subsequent frames in the case of B-frames). If the prediction error trace is extracted via the codec for H.264, the average prediction error associated with one frame is comprised of a linear combination of the average prediction error associated with motion vectors that map to the different anchor frames used in the motion estimation and compensation process. Thus, cross GOP predictions are smoothed out in such a way that it makes the fingerprint energy detector in Stamm's paper perform inadequately.
+
+%TODO Put figure from stamm's paper showing the detection ROC
+%TODO Show the detection ROC for the original methodology on H.264
+
+As shown in Fig. ~\ref{•} the probability of detection using the methodology from MPEG-2 videos does not translate to H.264. Instead, we propose the following methodology for extracting the prediction error sequence in H.264.
+
+\subsection{Proposed Prediction Error Sequence Extractor for H.264}
+
+The goal of the proposed extraction algorithm is to maximize the probability that should frame deletion exist, a given measurement of the prediction error comes from a cross-GOP prediction. First, instead of the average prediction error being accumulated from across the entire frame, we obtain the average prediction error associated with \emph{each} individual macroblock. Then, we separate the macroblocks into multiple sets, where each set consists of the macroblocks that map to a specific previous anchorframe. After separating the individual macroblock errors, we then take the average error over each set. 
+
+\section{Proposed Detection Algorithm}

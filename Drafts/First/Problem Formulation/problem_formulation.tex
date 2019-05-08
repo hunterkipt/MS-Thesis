@@ -1,0 +1,16 @@
+% This file is for the problem formulation section of the Master's Thesis.
+% This file will not compile on it's own. Will need to include it into a main file
+% That uses the drexel thesis template.
+\chapter{Problem Formulation}
+
+
+
+\section{Video Frame Deletion}
+
+To motivate the problem of frame deletion detection, it is first necessary to define what constitutes a frame deleted video. A frame deleted video is a video whose original content has been altered by removing one or more frames using video editing software. The process of removing frames changes the structure of compressed video. In particular, Wang and Farid's work on temporal traces for detecting frame deletion shows that for MPEG-2 video
+
+In MPEG-2, assuming all encoding parameters match the source video when re-compressing, nothing about the overall
+
+In most cases, the altered video will then undergo re-compression. In fact, since most consumer video recording devices do not have the storage capability or processing power to record high-definition raw video, it is assumed that all video sources have been compressed by either MPEG-4 or H.264, and that all frame deleted video will be re-compressed using H.264, where the reencoding is set to match the GOP structure of the source video.
+
+While in practice it is possible to detect frame deletion from videos with frames removed from the middle of the video, the length of videos in the dataset
