@@ -1,0 +1,12 @@
+\select@language {english}
+\contentsline {chapter}{List of Tables}{v}{section*.4}
+\contentsline {chapter}{List of Figures}{vi}{section*.5}
+\contentsline {chapter}{Abstract}{vii}{section*.6}
+\contentsline {chapter}{\numberline {1}Proposed Approach}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Prediction Error Sequence Extraction}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Proposed Prediction Error Sequence Extractor for H.264}{2}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Proposed Detection Algorithm}{3}{section.1.2}
+\contentsline {chapter}{\numberline {A}Some Appendix Heading}{5}{appendix.A}
+\contentsline {chapter}{\numberline {B}Another Appendix Heading}{7}{appendix.B}
+\cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname ~} \renewcommand {\cftchapaftersnum }{:}
+\contentsline {chapter}{Vita}{9}{section*.8}
