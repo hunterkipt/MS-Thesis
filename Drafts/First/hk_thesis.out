@@ -8,11 +8,13 @@
 \BOOKMARK [0][-]{section*.4}{List of Tables}{Front Matter.-1}% 8
 \BOOKMARK [0][-]{section*.5}{List of Figures}{Front Matter.-1}% 9
 \BOOKMARK [0][-]{section*.6}{Abstract}{Front Matter.-1}% 10
-\BOOKMARK [0][-]{chapter.1}{Proposed Approach}{Front Matter.-1}% 11
-\BOOKMARK [1][-]{section.1.1}{Prediction Error Sequence Extraction}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.1}{Proposed Prediction Error Sequence Extractor for H.264}{section.1.1}% 13
-\BOOKMARK [1][-]{section.1.2}{Proposed Detection Algorithm}{chapter.1}% 14
-\BOOKMARK [-1][-]{Back Matter.-1}{Back Matter}{}% 15
-\BOOKMARK [0][-]{appendix.A}{Some Appendix Heading}{Back Matter.-1}% 16
-\BOOKMARK [0][-]{appendix.B}{Another Appendix Heading}{Back Matter.-1}% 17
-\BOOKMARK [0][-]{section*.8}{Vita}{Back Matter.-1}% 18
+\BOOKMARK [0][-]{chapter.1}{Problem Formulation}{Front Matter.-1}% 11
+\BOOKMARK [1][-]{section.1.1}{Video Frame Deletion Detection}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Proposed Approach}{Front Matter.-1}% 13
+\BOOKMARK [1][-]{section.2.1}{Prediction Error Sequence Extraction}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.1.1}{Proposed Prediction Error Sequence Extractor for H.264}{section.2.1}% 15
+\BOOKMARK [1][-]{section.2.2}{Proposed Detection Algorithm}{chapter.2}% 16
+\BOOKMARK [-1][-]{Back Matter.-1}{Back Matter}{}% 17
+\BOOKMARK [0][-]{appendix.A}{Some Appendix Heading}{Back Matter.-1}% 18
+\BOOKMARK [0][-]{appendix.B}{Another Appendix Heading}{Back Matter.-1}% 19
+\BOOKMARK [0][-]{section*.11}{Vita}{Back Matter.-1}% 20

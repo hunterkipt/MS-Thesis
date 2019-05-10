@@ -3,14 +3,38 @@
 % That uses the drexel thesis template.
 \chapter{Problem Formulation}
 
+Detecting frame deletion in a video requires detecting the structural changes in a video due to the deletion process. In particular, Wang and Farid's work on temporal traces for detecting frame deletion shows that for MPEG-2 video, the P-frame prediction error can be formulated into a sequence, which can be monitored to detect frame deletion. Both Wang and Farid, and Stamm use a system like in Fig. ~\ref{System} to detect frame deletion. The prediction error sequence $e(n)$ is extracted from the decoded video file and processed to produce detection features. Wang and Farid's work did not propose features for automatic detection, and instead relied on visual inspection of the DFT of the prediction error sequence.
 
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.9\linewidth]{ProblemFormulation/frame_deletion_detection_system.png}}
+\caption{Generalized System for Frame Deletion Detection Feature Extraction}
+\label{System}
+\end{figure}
 
-\section{Video Frame Deletion}
+This generalized system will also work with H.264 encoded video as well. While video encoding has advanced significantly, the fundamental structures of a compressed digital video have remained unchanged. Videos are still stored in GOPs with different numbers of I, P, and B-frames. However, the prediction error extraction and post processing steps must be altered or augmented to remain robust to said advances in video compression.
 
-To motivate the problem of frame deletion detection, it is first necessary to define what constitutes a frame deleted video. A frame deleted video is a video whose original content has been altered by removing one or more frames using video editing software. The process of removing frames changes the structure of compressed video. In particular, Wang and Farid's work on temporal traces for detecting frame deletion shows that for MPEG-2 video
+As this work is concerned particularly with the detection of frame deletion in H.264, we have made the following assumptions. First, we assume that all altered video has undergone re-compression. In fact, since most consumer video recording devices do not have the storage capability or processing power to record high-definition raw video, it is assumed that all video sources have been compressed by either MPEG-4 or H.264, and that all frame deleted video will be re-compressed using H.264, where the reencoding is set to match the GOP structure of the source video. 
 
-In MPEG-2, assuming all encoding parameters match the source video when re-compressing, nothing about the overall
+In addition, it is assumed that all videos that are passed to the detector are of sufficient length to make a classification. Without multiple full GOPs, the presence of a deletion fingerprint is negligible. Lastly, we make the assumption that if indeed frames have been removed from a video, they have been removed from the beginning of the video.
 
-In most cases, the altered video will then undergo re-compression. In fact, since most consumer video recording devices do not have the storage capability or processing power to record high-definition raw video, it is assumed that all video sources have been compressed by either MPEG-4 or H.264, and that all frame deleted video will be re-compressed using H.264, where the reencoding is set to match the GOP structure of the source video.
+\section{Video Frame Deletion Detection}
 
-While in practice it is possible to detect frame deletion from videos with frames removed from the middle of the video, the length of videos in the dataset
+Detecting frame deletion is a binary classification problem. Given a Video $V$, there are two possible classes:
+
+\begin{equation}
+\begin{aligned}
+  C_{1} &: \text{The video is genuine, and has undergone no additional processing.} \\
+  C_{2} &: \text{The video is altered, and has had frames removed from it.}
+\end{aligned}
+\end{equation}
+
+In general, it is difficult to classify based on the entirety of a video directly, thus the problem must be reworked. As shown above, a feature extraction system will be used to produce the P-frame prediction error sequence $e(n)$, and a feature vector $\bm{x}$. Thus, given a feature vector $\bm{x}'$, it belongs to one of two classes:
+
+\begin{equation}
+\begin{aligned}
+  C_{1} &: \bm{x}' \text{resulted from a genuine video that has undergone no additional processing.} \\
+  C_{2} &: \bm{x}' \text{resulted from an altered video which has had frames removed from it.}
+\end{aligned}
+\end{equation}
+
+In the following chapter, we will propose both a new method for extracting $e(n)$, and additional augmentations to $\bm{x}$.

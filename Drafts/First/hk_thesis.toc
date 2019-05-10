@@ -2,11 +2,13 @@
 \contentsline {chapter}{List of Tables}{v}{section*.4}
 \contentsline {chapter}{List of Figures}{vi}{section*.5}
 \contentsline {chapter}{Abstract}{vii}{section*.6}
-\contentsline {chapter}{\numberline {1}Proposed Approach}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Prediction Error Sequence Extraction}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Proposed Prediction Error Sequence Extractor for H.264}{2}{subsection.1.1.1}
-\contentsline {section}{\numberline {1.2}Proposed Detection Algorithm}{3}{section.1.2}
-\contentsline {chapter}{\numberline {A}Some Appendix Heading}{5}{appendix.A}
-\contentsline {chapter}{\numberline {B}Another Appendix Heading}{7}{appendix.B}
+\contentsline {chapter}{\numberline {1}Problem Formulation}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Video Frame Deletion Detection}{2}{section.1.1}
+\contentsline {chapter}{\numberline {2}Proposed Approach}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Prediction Error Sequence Extraction}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Proposed Prediction Error Sequence Extractor for H.264}{6}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Proposed Detection Algorithm}{7}{section.2.2}
+\contentsline {chapter}{\numberline {A}Some Appendix Heading}{9}{appendix.A}
+\contentsline {chapter}{\numberline {B}Another Appendix Heading}{11}{appendix.B}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname ~} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{Vita}{9}{section*.8}
+\contentsline {chapter}{Vita}{13}{section*.11}

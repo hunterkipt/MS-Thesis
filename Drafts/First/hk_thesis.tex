@@ -44,9 +44,13 @@
 \usepackage[english]{babel} % English blindtext
 \usepackage{blindtext} % macros for producing dummy output
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{dsfont}
+\usepackage{bm}
+\usepackage{subfig}
 
 \DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\R}{\mathbb{R}}
 
 \addto\captionsenglish{\DUTnames}
 
@@ -72,6 +76,7 @@
 \end{DUTpreamble}
 
 \begin{thesis}
+\include{ProblemFormulation/problem_formulation}
 \include{ProposedApproach/proposed_approach}
 \end{thesis}
 
