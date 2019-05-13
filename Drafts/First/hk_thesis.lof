@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Generalized System for Frame Deletion Detection Feature Extraction\relax }}{1}{figure.caption.7}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison Between MPEG-2 Detection Methods used on MPEG-2 and H.264\relax }}{5}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MPEG-2 Detector on MPEG-2}}}{5}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MPEG-2 Detector on H.264}}}{5}{subfigure.1.2}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparison Between Prediction Error Sequences and Fingerprint Signals from two Similar Videos\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Generalized System for Frame Deletion Detection\relax }}{1}{figure.caption.7}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison Between MPEG-2 Detection Methods used on MPEG-2 and H.264\relax }}{6}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MPEG-2 Detector on MPEG-2}}}{6}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MPEG-2 Detector on H.264}}}{6}{subfigure.1.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparison Between Prediction Error Sequences and Fingerprint Signals from two Similar Videos\relax }}{9}{figure.caption.9}

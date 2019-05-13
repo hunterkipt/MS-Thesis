@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 MAY 2019 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAY 2019 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,25 +1036,25 @@ less on input line 76.
  (./ProblemFormulation/problem_formulation.tex
 Chapter 0. Problem Formulation
 
-<ProblemFormulation/frame_deletion_detection_system.png, id=167, 1351.0475pt x 
-503.8825pt>
+<ProblemFormulation/frame_deletion_detection_system.png, id=167, 1501.61pt x 34
+9.305pt>
 File: ProblemFormulation/frame_deletion_detection_system.png Graphic file (type
  png)
  <use ProblemFormulation/frame_deletion_detection_system.png>
 Package pdftex.def Info: ProblemFormulation/frame_deletion_detection_system.png
  used on input line 9.
-(pdftex.def)             Requested size: 390.25537pt x 145.54553pt.
+(pdftex.def)             Requested size: 390.25537pt x 90.77985pt.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 17.
+less on input line 18.
 
 [1
 
 
 
 
- <./ProblemFormulation/frame_deletion_detection_system.png>]) [2]
+ <./ProblemFormulation/frame_deletion_detection_system.png>] [2]) [3]
 \openout2 = `ProposedApproach/proposed_approach.aux'.
 
 
@@ -1068,12 +1068,12 @@ File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 25.
 
-[3
+[4
 
 
 
-] [4]
-<ProposedApproach/old_method_roc_mpeg2.png, id=200, 999.735pt x 718.685pt>
+] [5]
+<ProposedApproach/old_method_roc_mpeg2.png, id=205, 999.735pt x 718.685pt>
 File: ProposedApproach/old_method_roc_mpeg2.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_mpeg2.png>
@@ -1081,23 +1081,23 @@ Package pdftex.def Info: ProposedApproach/old_method_roc_mpeg2.png used on inpu
 t line 57.
 (pdftex.def)             Requested size: 197.89932pt x 142.26378pt.
 
-<ProposedApproach/old_method_roc_h264.png, id=201, 378.213pt x 317.0244pt>
+<ProposedApproach/old_method_roc_h264.png, id=206, 378.213pt x 317.0244pt>
 File: ProposedApproach/old_method_roc_h264.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_h264.png>
 Package pdftex.def Info: ProposedApproach/old_method_roc_h264.png used on input
  line 59.
 (pdftex.def)             Requested size: 169.72104pt x 142.26378pt.
- [5 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_metho
-d_roc_h264.png>] [6]
-<ProposedApproach/perror_seq_comparisons.png, id=222, 1011.78pt x 505.89pt>
+ [6 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_metho
+d_roc_h264.png>] [7]
+<ProposedApproach/perror_seq_comparisons.png, id=227, 1011.78pt x 505.89pt>
 File: ProposedApproach/perror_seq_comparisons.png Graphic file (type png)
 
 <use ProposedApproach/perror_seq_comparisons.png>
 Package pdftex.def Info: ProposedApproach/perror_seq_comparisons.png used on in
 put line 102.
 (pdftex.def)             Requested size: 390.25537pt x 195.12718pt.
- [7]) [8 <./ProposedApproach/perror_seq_comparisons.png>]
+ [8]) [9 <./ProposedApproach/perror_seq_comparisons.png>]
 No file hk_thesis.bbl.
 \openout2 = `example-a.aux'.
 
@@ -1107,29 +1107,29 @@ Appendix . Some Appendix Heading
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 25.
 
-[9
+[10
 
 
 
 
-] [10]
+] [11]
 Appendix A. Another Appendix Heading
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 27.
 
-[11
+[12
 
-]) [12]
+]) [13]
 Appendix Vita
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 92.
 
-[13
+[14
 
 
-] [14
+] [15
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
@@ -1144,11 +1144,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  )
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
- 20420 strings out of 492995
- 369661 string characters out of 6132704
- 515098 words of memory out of 5000000
- 23505 multiletter control sequences out of 15000+600000
- 10680 words of font info for 42 fonts, out of 8000000 for 9000
+ 20423 strings out of 492995
+ 369689 string characters out of 6132704
+ 515080 words of memory out of 5000000
+ 23506 multiletter control sequences out of 15000+600000
+ 11026 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,94p,1064b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/20
@@ -1166,13 +1166,14 @@ t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hk_thesis.pdf (24 pages, 1847208 bytes).
+ype1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on hk_thesis.pdf (25 pages, 1821552 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
