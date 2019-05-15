@@ -1,6 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {english}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Generalized System for Frame Deletion Detection\relax }}{1}{figure.caption.7}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison Between MPEG-2 Detection Methods used on MPEG-2 and H.264\relax }}{6}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Generalized Approach to Frame Deletion Detection\relax }}{1}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison Between MPEG-2 Detection Methods used on (a) MPEG-2 and (b) H.264}}{6}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MPEG-2 Detector on MPEG-2}}}{6}{subfigure.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MPEG-2 Detector on H.264}}}{6}{subfigure.1.2}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparison Between Prediction Error Sequences and Fingerprint Signals from two Similar Videos\relax }}{9}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Identification of the source macroblock in 3 previous anchor frames\relax }}{7}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Methodology for forming $P[n]$\relax }}{9}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \emph {Top Left} - The extracted prediction error sequence for a high motion video. \emph {Top Right} - The extracted prediction error sequence for a low motion video. \emph {Bottom Left} - Estimated fingerprint signal for a high motion video. \emph {Bottom Right} - Estimated fingerprint signal for a low motion video.\relax }}{10}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \emph {Top} - The extracted prediction error sequence for a low motion video with frame deletion. \emph {Bottom} - The Estimated fingerprint signal for a low motion video with frame deletion.\relax }}{11}{figure.caption.12}

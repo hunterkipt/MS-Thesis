@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: hk_thesis.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: ProblemFormulation/problem_formulation.aux
+A level-1 auxiliary file: ProposedApproach/proposed_approach.aux
+Case mismatch error between cite keys Stamm and stamm
+---line 52 of file hk_thesis.aux
+ : \citation{Stamm
+ :                }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: example-a.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: hk_thesis-blx.bib
+Database file #2: references.bib
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 6 entries,
+            6256 wiz_defined-function locations,
+            1219 strings with 9457 characters,
+and the built_in function-call counts, 21815 in all, are:
+= -- 1330
+> -- 417
+< -- 118
++ -- 451
+- -- 163
+* -- 1488
+:= -- 2017
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 61
+chr.to.int$ -- 32
+cite$ -- 10
+duplicate$ -- 2260
+empty$ -- 2250
+format.name$ -- 212
+if$ -- 4643
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 153
+num.names$ -- 156
+pop$ -- 1681
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 771
+stack$ -- 0
+substring$ -- 2165
+swap$ -- 645
+text.length$ -- 106
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 190
+warning$ -- 0
+while$ -- 246
+width$ -- 0
+write$ -- 148
+(There was 1 error message)

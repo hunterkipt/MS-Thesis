@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAY 2019 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 MAY 2019 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,24 +668,264 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 \l@DUT@toc@sep=\skip119
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip120
-\bibsep=\skip121
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count141
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count141
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count142
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count143
+\decimalpart=\count144
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count145
+\c@listtotal=\count146
+\c@listcount=\count147
+\c@liststart=\count148
+\c@liststop=\count149
+\c@citecount=\count150
+\c@citetotal=\count151
+\c@multicitecount=\count152
+\c@multicitetotal=\count153
+\c@instcount=\count154
+\c@maxnames=\count155
+\c@minnames=\count156
+\c@maxitems=\count157
+\c@minitems=\count158
+\c@citecounter=\count159
+\c@savedcitecounter=\count160
+\c@uniquelist=\count161
+\c@uniquename=\count162
+\c@refsection=\count163
+\c@refsegment=\count164
+\c@maxextratitle=\count165
+\c@maxextratitleyear=\count166
+\c@maxextrayear=\count167
+\c@maxextraalpha=\count168
+\c@abbrvpenalty=\count169
+\c@highnamepenalty=\count170
+\c@lownamepenalty=\count171
+\c@maxparens=\count172
+\c@parenlevel=\count173
+\blx@tempcnta=\count174
+\blx@tempcntb=\count175
+\blx@tempcntc=\count176
+\blx@maxsection=\count177
+\blx@maxsegment@0=\count178
+\blx@notetype=\count179
+\blx@parenlevel@text=\count180
+\blx@parenlevel@foot=\count181
+\blx@sectionciteorder@0=\count182
+\labelnumberwidth=\skip120
+\labelalphawidth=\skip121
+\biblabelsep=\skip122
+\bibitemsep=\skip123
+\bibnamesep=\skip124
+\bibinitsep=\skip125
+\bibparsep=\skip126
+\bibhang=\skip127
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count183
+\c@maxcomprange=\count184
+\c@mincompwidth=\count185
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count186
+\c@savedafterword=\count187
+\c@annotator=\count188
+\c@savedannotator=\count189
+\c@author=\count190
+\c@savedauthor=\count191
+\c@bookauthor=\count192
+\c@savedbookauthor=\count193
+\c@commentator=\count194
+\c@savedcommentator=\count195
+\c@editor=\count196
+\c@savededitor=\count197
+\c@editora=\count198
+\c@savededitora=\count266
+\c@editorb=\count267
+\c@savededitorb=\count268
+\c@editorc=\count269
+\c@savededitorc=\count270
+\c@foreword=\count271
+\c@savedforeword=\count272
+\c@holder=\count273
+\c@savedholder=\count274
+\c@introduction=\count275
+\c@savedintroduction=\count276
+\c@namea=\count277
+\c@savednamea=\count278
+\c@nameb=\count279
+\c@savednameb=\count280
+\c@namec=\count281
+\c@savednamec=\count282
+\c@translator=\count283
+\c@savedtranslator=\count284
+\c@shortauthor=\count285
+\c@savedshortauthor=\count286
+\c@shorteditor=\count287
+\c@savedshorteditor=\count288
+\c@labelname=\count289
+\c@savedlabelname=\count290
+\c@institution=\count291
+\c@savedinstitution=\count292
+\c@lista=\count293
+\c@savedlista=\count294
+\c@listb=\count295
+\c@savedlistb=\count296
+\c@listc=\count297
+\c@savedlistc=\count298
+\c@listd=\count299
+\c@savedlistd=\count300
+\c@liste=\count301
+\c@savedliste=\count302
+\c@listf=\count303
+\c@savedlistf=\count304
+\c@location=\count305
+\c@savedlocation=\count306
+\c@organization=\count307
+\c@savedorganization=\count308
+\c@origlocation=\count309
+\c@savedoriglocation=\count310
+\c@origpublisher=\count311
+\c@savedorigpublisher=\count312
+\c@publisher=\count313
+\c@savedpublisher=\count314
+\c@language=\count315
+\c@savedlanguage=\count316
+\c@pageref=\count317
+\c@savedpageref=\count318
+\shorthandwidth=\skip128
+\shortjournalwidth=\skip129
+\shortserieswidth=\skip130
+\shorttitlewidth=\skip131
+\shortauthorwidth=\skip132
+\shorteditorwidth=\skip133
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count319
+\c@textcitetotal=\count320
+\c@textcitemaxnames=\count321
+\c@biburlnumpenalty=\count322
+\c@biburlucpenalty=\count323
+\c@biburllcpenalty=\count324
+\c@smartand=\count325
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2017/03/27 v1.2d biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count326
+\c@bbx:relatedtotal=\count327
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2017/03/27 v1.2d biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count328
+\c@cbx@tempcntb=\count329
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count142
-\FV@InFile=\read2
+\FV@CodeLineNo=\count330
+\FV@InFile=\read3
 \FV@TabBox=\box40
-\c@FancyVerbLine=\count143
-\FV@StepNumber=\count144
-\FV@OutFile=\write4
+\c@FancyVerbLine=\count331
+\FV@StepNumber=\count332
+\FV@OutFile=\write6
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
@@ -695,7 +935,7 @@ Language: english 2017/01/24 v3.3q English support from the babel system
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count145
+\babel@savecnt=\count333
 \U@D=\dimen177
 )
 \l@canadian = a dialect from \language\l@american 
@@ -708,28 +948,28 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count146
-\c@Blindtext=\count147
-\c@blind@countparstart=\count148
-\blind@countxx=\count149
-\blindtext@numBlindtext=\count150
-\blind@countyy=\count151
-\c@blindlist=\count152
-\c@blindlistlevel=\count153
-\c@blindlist@level=\count154
-\blind@listitem=\count155
-\c@blind@listcount=\count156
-\c@blind@levelcount=\count157
-\blind@mathformula=\count158
-\blind@Mathformula=\count159
-\c@blind@randomcount=\count160
-\c@blind@randommax=\count161
-\c@blind@pangramcount=\count162
-\c@blind@pangrammax=\count163
+\c@blindtext=\count334
+\c@Blindtext=\count335
+\c@blind@countparstart=\count336
+\blind@countxx=\count337
+\blindtext@numBlindtext=\count338
+\blind@countyy=\count339
+\c@blindlist=\count340
+\c@blindlistlevel=\count341
+\c@blindlist@level=\count342
+\blind@listitem=\count343
+\c@blind@listcount=\count344
+\c@blind@levelcount=\count345
+\blind@mathformula=\count346
+\blind@Mathformula=\count347
+\c@blind@randomcount=\count348
+\c@blind@randommax=\count349
+\c@blind@pangramcount=\count350
+\c@blind@pangrammax=\count351
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip122
+\@mathmargin=\skip134
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -747,13 +987,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count164
+\inf@bad=\count352
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count165
-\leftroot@=\count166
+\uproot@=\count353
+\leftroot@=\count354
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count167
-\DOTSCASE@=\count168
+\classnum@=\count355
+\DOTSCASE@=\count356
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -762,15 +1002,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen180
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count169
-\c@MaxMatrixCols=\count170
+\macc@depth=\count357
+\c@MaxMatrixCols=\count358
 \dotsspace@=\muskip11
-\c@parentequation=\count171
-\dspbrk@lvl=\count172
+\c@parentequation=\count359
+\dspbrk@lvl=\count360
 \tag@help=\toks33
-\row@=\count173
-\column@=\count174
-\maxfields@=\count175
+\row@=\count361
+\column@=\count362
+\maxfields@=\count363
 \andhelp@=\toks34
 \eqnshift@=\dimen181
 \alignsep@=\dimen182
@@ -779,8 +1019,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen185
 \lineht@=\dimen186
 \@envbody=\toks35
-\multlinegap=\skip123
-\multlinetaggap=\skip124
+\multlinegap=\skip135
+\multlinetaggap=\skip136
 \mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -805,38 +1045,50 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldsymbols=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
-) (./hk_thesis.aux
-(./ProblemFormulation/problem_formulation.aux)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count364
+\@quotereset=\count365
+(./hk_thesis.aux (./ProblemFormulation/problem_formulation.aux)
 (./ProposedApproach/proposed_approach.aux) (./example-a.aux))
 \openout1 = `hk_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
+\scratchcounter=\count366
 \scratchdimen=\dimen187
 \scratchbox=\box43
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count179
+\MPscratchCnt=\count369
 \MPscratchDim=\dimen188
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -900,7 +1152,7 @@ Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 57.
+Package hyperref Info: Link coloring ON on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -908,34 +1160,63 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count182
+\c@section@level=\count372
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./hk_thesis.out) (./hk_thesis.out)
-\@outlinefile=\write5
-\openout5 = `hk_thesis.out'.
+\@outlinefile=\write7
+\openout7 = `hk_thesis.out'.
 
-\tempskipa=\skip125
-\tempskipb=\skip126
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+Package biblatex Info: Input encoding 'ascii' specified.
+Package biblatex Info: Data encoding 'ascii' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `hk_thesis-blx.bib'.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'hk_thesis.bbl' found.
+ (./hk_thesis.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'wang':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'stamm':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'svm':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+\tempskipa=\skip137
+\tempskipb=\skip138
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
@@ -946,27 +1227,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 <drexel-logo.pdf, id=100, 200.75pt x 220.825pt>
 File: drexel-logo.pdf Graphic file (type pdf)
  <use drexel-logo.pdf>
-Package pdftex.def Info: drexel-logo.pdf used on input line 58.
+Package pdftex.def Info: drexel-logo.pdf used on input line 61.
 (pdftex.def)             Requested size: 113.81102pt x 125.19427pt.
  [0 <./drexel-logo.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \begin{dedications}
+l.63 \begin{dedications}
                          [1
 
 ]
 Chapter Dedications
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 65.
+less on input line 67.
 
 [2
 
@@ -975,7 +1256,7 @@ less on input line 65.
 Chapter Acknowledgments
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 69.
+less on input line 71.
 
 [3
 
@@ -983,13 +1264,13 @@ less on input line 69.
 ]
 Chapter Table of Contents
 (./hk_thesis.toc)
-\tf@toc=\write6
-\openout6 = `hk_thesis.toc'.
+\tf@toc=\write8
+\openout8 = `hk_thesis.toc'.
 
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 70.
+less on input line 72.
 
 [4
 
@@ -997,26 +1278,26 @@ less on input line 70.
 ]
 Chapter List of Tables
 (./hk_thesis.lot)
-\tf@lot=\write7
-\openout7 = `hk_thesis.lot'.
+\tf@lot=\write9
+\openout9 = `hk_thesis.lot'.
 
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 71.
+less on input line 73.
 
 [5
 
 ]
 Chapter List of Figures
 (./hk_thesis.lof)
-\tf@lof=\write8
-\openout8 = `hk_thesis.lof'.
+\tf@lof=\write10
+\openout10 = `hk_thesis.lof'.
 
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 73.
+less on input line 75.
 
 [6
 
@@ -1024,7 +1305,7 @@ less on input line 73.
 Chapter Abstract
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 76.
+less on input line 78.
 
 [7
 
@@ -1036,7 +1317,7 @@ less on input line 76.
  (./ProblemFormulation/problem_formulation.tex
 Chapter 0. Problem Formulation
 
-<ProblemFormulation/frame_deletion_detection_system.png, id=167, 1501.61pt x 34
+<ProblemFormulation/frame_deletion_detection_system.png, id=180, 1501.61pt x 34
 9.305pt>
 File: ProblemFormulation/frame_deletion_detection_system.png Graphic file (type
  png)
@@ -1047,7 +1328,7 @@ Package pdftex.def Info: ProblemFormulation/frame_deletion_detection_system.png
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 18.
+less on input line 17.
 
 [1
 
@@ -1073,84 +1354,130 @@ less on input line 25.
 
 
 ] [5]
-<ProposedApproach/old_method_roc_mpeg2.png, id=205, 999.735pt x 718.685pt>
+<ProposedApproach/old_method_roc_mpeg2.png, id=224, 999.735pt x 718.685pt>
 File: ProposedApproach/old_method_roc_mpeg2.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_mpeg2.png>
 Package pdftex.def Info: ProposedApproach/old_method_roc_mpeg2.png used on inpu
-t line 57.
+t line 61.
 (pdftex.def)             Requested size: 197.89932pt x 142.26378pt.
 
-<ProposedApproach/old_method_roc_h264.png, id=206, 378.213pt x 317.0244pt>
+<ProposedApproach/old_method_roc_h264.png, id=225, 378.213pt x 317.0244pt>
 File: ProposedApproach/old_method_roc_h264.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_h264.png>
 Package pdftex.def Info: ProposedApproach/old_method_roc_h264.png used on input
- line 59.
+ line 63.
 (pdftex.def)             Requested size: 169.72104pt x 142.26378pt.
  [6 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_metho
-d_roc_h264.png>] [7]
-<ProposedApproach/perror_seq_comparisons.png, id=227, 1011.78pt x 505.89pt>
+d_roc_h264.png>]
+<ProposedApproach/id_source_mb.png, id=242, 1617.04124pt x 756.8275pt>
+File: ProposedApproach/id_source_mb.png Graphic file (type png)
+
+<use ProposedApproach/id_source_mb.png>
+Package pdftex.def Info: ProposedApproach/id_source_mb.png used on input line 8
+3.
+(pdftex.def)             Requested size: 390.25537pt x 182.647pt.
+ [7 <./ProposedApproach/id_source_mb.png>] <ProposedApproach/formation_p_vector
+.png, id=250, 748.7975pt x 781.92125pt>
+File: ProposedApproach/formation_p_vector.png Graphic file (type png)
+
+<use ProposedApproach/formation_p_vector.png>
+Package pdftex.def Info: ProposedApproach/formation_p_vector.png used on input 
+line 113.
+(pdftex.def)             Requested size: 390.25537pt x 407.5201pt.
+ [8] [9 <./ProposedApproach/formation_p_vector.png>]
+<ProposedApproach/perror_seq_comparisons.png, id=265, 1011.78pt x 505.89pt>
 File: ProposedApproach/perror_seq_comparisons.png Graphic file (type png)
 
 <use ProposedApproach/perror_seq_comparisons.png>
 Package pdftex.def Info: ProposedApproach/perror_seq_comparisons.png used on in
-put line 102.
+put line 123.
 (pdftex.def)             Requested size: 390.25537pt x 195.12718pt.
- [8]) [9 <./ProposedApproach/perror_seq_comparisons.png>]
-No file hk_thesis.bbl.
+ [10 <./ProposedApproach/perror_seq_comparisons.png>]
+
+LaTeX Warning: Citation 'Stamm' on page 11 undefined on input line 130.
+
+<ProposedApproach/perror_fdel_comparison.png, id=274, 722.7pt x 578.16pt>
+File: ProposedApproach/perror_fdel_comparison.png Graphic file (type png)
+
+<use ProposedApproach/perror_fdel_comparison.png>
+Package pdftex.def Info: ProposedApproach/perror_fdel_comparison.png used on in
+put line 133.
+(pdftex.def)             Requested size: 390.25537pt x 312.20175pt.
+ [11 <./ProposedApproach/perror_fdel_comparison.png>]) [12]
+Chapter Bibliography
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 89.
+
+[13
+
+
+
+]
 \openout2 = `example-a.aux'.
 
-(./example-a.tex
+ (./example-a.tex
 Appendix . Some Appendix Heading
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 25.
 
-[10
+[14
 
 
-
-
-] [11]
+] [15]
 Appendix A. Another Appendix Heading
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 27.
 
-[12
+[16
 
-]) [13]
+]) [17]
 Appendix Vita
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 92.
+less on input line 95.
 
-[14
+[18
 
 
-] [15
+] [19
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (./hk_thesis.aux (./ProblemFormulation/problem_formulation.aux)
 (./ProposedApproach/proposed_approach.aux) (./example-a.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `hk_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FEB2E41BB3127A1BA44B070072D8E97F;1387.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+(rerunfilecheck)             Checksum: E959D0BC51B6A14A68C8484BB1B96165;1387.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                hk_thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'hk_thesis.run.xml'.
+\openout1 = `hk_thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  )
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
- 20423 strings out of 492995
- 369689 string characters out of 6132704
- 515080 words of memory out of 5000000
- 23506 multiletter control sequences out of 15000+600000
- 11026 words of font info for 43 fonts, out of 8000000 for 9000
+ 26710 strings out of 492995
+ 487212 string characters out of 6132704
+ 941618 words of memory out of 5000000
+ 29696 multiletter control sequences out of 15000+600000
+ 16257 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,94p,1064b,903s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,94p,1121b,1787s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017
@@ -1165,15 +1492,17 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hk_thesis.pdf (25 pages, 1821552 bytes).
+/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on hk_thesis.pdf (29 pages, 2161921 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,8 +32,11 @@
 \advisor{Dr. Matthew Stamm, Ph.D.}
 \copyrighttext{\copyrighttextCCBYSA}
 
-\usepackage[super,sort&compress]{natbib} % fancy citation extensions
-\bibliographystyle{unsrtnat}
+%\usepackage[super,sort&compress]{natbib} % fancy citation extensions
+%\bibliographystyle{IEEE}
+
+\usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex}
+\addbibresource{references.bib}
 
 \usepackage{fancyvrb} % nicer verbatim handling
 \DefineShortVerb{\|}  % \verb+TEXT+  ->  |TEXT|
@@ -58,7 +61,6 @@
 \begin{DUTpreamble} % "DUT" because original preamble was clobbered.
 
 \begin{dedications}
-
 \Blindtext[3]
 \end{dedications}
 
@@ -80,7 +82,8 @@
 \include{ProposedApproach/proposed_approach}
 \end{thesis}
 
-\bibliography{example-ref}
+\printbibliography
+%\bibliography{references}
 
 \appendix
 \include{example-a}
