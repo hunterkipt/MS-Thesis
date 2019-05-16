@@ -17,6 +17,115 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{mpeg2}{report}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO Central Secretary}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{number}{ISO/IEC IS 13818-2}
+    \field{shorttitle}{{ISO}/{IEC} {IS} 13818-2}
+    \field{title}{Information technology - {Generic} coding of moving {video}
+  {pictures} and associated {audio} information - part 2: Video}
+    \list{location}{1}{%
+      {Geneva, Switzerland}%
+    }
+    \list{institution}{1}{%
+      {International Organization for Standardization}%
+    }
+    \field{type}{Standard}
+    \field{year}{2008}
+  \endentry
+
+  \entry{h264}{report}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO Central Secretary}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{number}{ISO/IEC IS 14496-10}
+    \field{shorttitle}{{ISO}/{IEC} {IS} 14496-10}
+    \field{title}{Information technology - coding of {audio-visual} objects -
+  part 10: Advanced video coding (avc)}
+    \list{location}{1}{%
+      {Geneva, Switzerland}%
+    }
+    \list{institution}{1}{%
+      {International Organization for Standardization}%
+    }
+    \field{type}{Standard}
+    \field{year}{2010}
+  \endentry
+
+  \entry{h264Overview}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WT}{%
+         family={Wiegand},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SGJ}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={G.\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bjontegaard},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Luthra},
+         familyi={L\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press}%
+    }
+    \strng{namehash}{WTSGJBG+1}
+    \strng{fullhash}{WTSGJBGLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TCSVT.2003.815165
+    \endverb
+    \field{issn}{1051-8215}
+    \field{number}{7}
+    \field{pages}{560\bibrangedash 576}
+    \field{title}{Overview of the H.264/AVC Video Coding Standard}
+    \verb{url}
+    \verb https://doi.org/10.1109/TCSVT.2003.815165
+    \endverb
+    \field{volume}{13}
+    \list{location}{1}{%
+      {Piscataway, NJ, USA}%
+    }
+    \field{journaltitle}{IEEE Trans. Cir. and Sys. for Video Technol.}
+    \field{month}{07}
+    \field{year}{2003}
+  \endentry
+
   \entry{wang}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=WW}{%
@@ -98,27 +207,6 @@
   Security}
     \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{mpeg2}{report}{}
-    \field{labeltitlesource}{title}
-    \field{title}{Generic coding of moving pictures and associated audio
-  information: Systems}
-    \list{institution}{1}{%
-      {ISO/IEC}%
-    }
-    \field{type}{techreport}
-    \field{year}{2000}
-  \endentry
-
-  \entry{h264}{report}{}
-    \field{labeltitlesource}{title}
-    \field{title}{ITU-T Recommendation H.264 (04/2017)}
-    \list{institution}{1}{%
-      {ITU}%
-    }
-    \field{type}{techreport}
-    \field{year}{2017}
   \endentry
 
   \entry{svm}{article}{}

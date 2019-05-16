@@ -110,7 +110,7 @@ Where $N_{j}$ is the number of non-zero elements in the $j^{th}$ column of $\til
 This entire process is repeated for every P frame in the video. This method of error extraction estimates which previous anchor frame contributes the maximum error per macroblock to the overall prediction error residual obtained by the codec for a given P frame. Since prediction across GOP boundaries results in spikes in the prediction error, the anchor frame that contributes the most error is most likely to be from a different original GOP. In this manner, we obtain a trace that is resilient to advances made in the motion compensation and estimation process in modern codecs as well as robust to variable frame rates and dynamic GOP structures.
 
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=0.9\linewidth]{ProposedApproach/formation_p_vector.png}}
+\centerline{\includegraphics[width=0.55\linewidth]{ProposedApproach/formation_p_vector.png}}
 \caption{Methodology for forming $P[n]$}
 \label{formp}
 \end{figure}
@@ -130,7 +130,7 @@ Notice the large discrepancy in magnitude between both types of signals dependin
 Under the old model for the fingerprint signal, $\beta$ was a constant, meaning the fingerprint signal was thought of as a randomly occurring sequence of discrete impulses with a magnitude of $\beta$. With the new model defined in Equation ~\ref{newModel}, $\beta(n)$ is a random variable that takes nonnegative real values. The effect of $\beta(n)$ can be seen in Fig. ~\ref{fdelCompare}. The sample low motion video was reencoded with the first 15 frames removed. This accounts for half of a GOP. As the GOP structure of the video is fixed, it is expected that the fingerprint signal will be periodic \cite{stamm}. The estimated fingerprint signal of the sample video with frame deletion shows some amount of periodicity but the amplitude of the signal varies with time. Modeling this variation of $\beta(n)$ for a given video can help aid in the detection of frame deletion.
 
 \begin{figure}[htbp]
-\centerline{\includegraphics[width=0.9\linewidth]{ProposedApproach/perror_fdel_comparison.png}}
+\centerline{\includegraphics[width=0.75\linewidth]{ProposedApproach/perror_fdel_comparison.png}}
 \caption{\emph{Top} - The extracted prediction error sequence for a low motion video with frame deletion. \emph{Bottom} - The Estimated fingerprint signal for a low motion video with frame deletion.}
 \label{fdelCompare}
 \end{figure}

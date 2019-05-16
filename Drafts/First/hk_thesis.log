@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 MAY 2019 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2019 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,6 +1046,14 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen187
+\WF@size=\dimen188
+\c@WF@wrappedlines=\count364
+\WF@box=\box43
+\WF@everypar=\toks37
+Package: wrapfig 2003/01/31  v 3.6
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1056,40 +1064,41 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count364
-\@quotereset=\count365
-(./hk_thesis.aux (./ProblemFormulation/problem_formulation.aux)
+\@quotelevel=\count365
+\@quotereset=\count366
+(./hk_thesis.aux (./Background/background.aux)
+(./ProblemFormulation/problem_formulation.aux)
 (./ProposedApproach/proposed_approach.aux) (./example-a.aux))
 \openout1 = `hk_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen187
-\scratchbox=\box43
-\nofMPsegments=\count367
-\nofMParguments=\count368
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen188
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count367
+\scratchdimen=\dimen189
+\scratchbox=\box44
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen190
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1149,10 +1158,11 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 60.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring ON on input line 61.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1160,11 +1170,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count373
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./hk_thesis.out) (./hk_thesis.out)
 \@outlinefile=\write7
@@ -1198,25 +1208,25 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
 \tempskipa=\skip137
 \tempskipb=\skip138
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -1224,30 +1234,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<drexel-logo.pdf, id=100, 200.75pt x 220.825pt>
+<drexel-logo.pdf, id=120, 200.75pt x 220.825pt>
 File: drexel-logo.pdf Graphic file (type pdf)
  <use drexel-logo.pdf>
-Package pdftex.def Info: drexel-logo.pdf used on input line 61.
+Package pdftex.def Info: drexel-logo.pdf used on input line 62.
 (pdftex.def)             Requested size: 113.81102pt x 125.19427pt.
  [0 <./drexel-logo.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \begin{dedications}
+l.64 \begin{dedications}
                          [1
 
 ]
 Chapter Dedications
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 67.
+less on input line 68.
 
 [2
 
@@ -1256,7 +1266,7 @@ less on input line 67.
 Chapter Acknowledgments
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 71.
+less on input line 72.
 
 [3
 
@@ -1270,7 +1280,7 @@ Chapter Table of Contents
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 72.
+less on input line 73.
 
 [4
 
@@ -1284,7 +1294,7 @@ Chapter List of Tables
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 73.
+less on input line 74.
 
 [5
 
@@ -1297,7 +1307,7 @@ Chapter List of Figures
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 75.
+less on input line 76.
 
 [6
 
@@ -1305,19 +1315,57 @@ less on input line 75.
 Chapter Abstract
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 78.
+less on input line 79.
 
 [7
 
 ] [8
 
 ]
+\openout2 = `Background/background.aux'.
+
+ (./Background/background.tex
+Chapter 0. Background
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 10.
+
+[1
+
+
+
+
+] <Background/error_residual_vis.png, id=217, 981.16562pt x 327.2225pt>
+File: Background/error_residual_vis.png Graphic file (type png)
+
+<use Background/error_residual_vis.png>
+Package pdftex.def Info: Background/error_residual_vis.png used on input line 1
+4.
+(pdftex.def)             Requested size: 390.25537pt x 130.1477pt.
+
+<Background/gop_example.png, id=219, 1033.8625pt x 321.70187pt>
+File: Background/gop_example.png Graphic file (type png)
+
+<use Background/gop_example.png>
+Package pdftex.def Info: Background/gop_example.png used on input line 22.
+(pdftex.def)             Requested size: 390.25537pt x 121.43312pt.
+ [2 <./Background/error_residual_vis.png>]
+[3 <./Background/gop_example.png>]
+<Background/multi_frame_pred.png, id=236, 873.2625pt x 475.7775pt>
+File: Background/multi_frame_pred.png Graphic file (type png)
+
+<use Background/multi_frame_pred.png>
+Package pdftex.def Info: Background/multi_frame_pred.png used on input line 40.
+
+(pdftex.def)             Requested size: 390.25537pt x 212.62415pt.
+) [4 <./Background/multi_frame_pred.png>]
+[5]
 \openout2 = `ProblemFormulation/problem_formulation.aux'.
 
  (./ProblemFormulation/problem_formulation.tex
-Chapter 0. Problem Formulation
+Chapter 1. Problem Formulation
 
-<ProblemFormulation/frame_deletion_detection_system.png, id=180, 1501.61pt x 34
+<ProblemFormulation/frame_deletion_detection_system.png, id=250, 1501.61pt x 34
 9.305pt>
 File: ProblemFormulation/frame_deletion_detection_system.png Graphic file (type
  png)
@@ -1330,17 +1378,16 @@ Package pdftex.def Info: ProblemFormulation/frame_deletion_detection_system.png
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 17.
 
-[1
+[6
 
 
 
-
- <./ProblemFormulation/frame_deletion_detection_system.png>] [2]) [3]
+ <./ProblemFormulation/frame_deletion_detection_system.png>] [7]) [8]
 \openout2 = `ProposedApproach/proposed_approach.aux'.
 
 
 (./ProposedApproach/proposed_approach.tex
-Chapter 1. Proposed Approach
+Chapter 2. Proposed Approach
 LaTeX Font Info:    Try loading font information for U+dsrom on input line 8.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
@@ -1349,12 +1396,12 @@ File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 25.
 
-[4
+[9
 
 
 
-] [5]
-<ProposedApproach/old_method_roc_mpeg2.png, id=224, 999.735pt x 718.685pt>
+] [10]
+<ProposedApproach/old_method_roc_mpeg2.png, id=291, 999.735pt x 718.685pt>
 File: ProposedApproach/old_method_roc_mpeg2.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_mpeg2.png>
@@ -1362,56 +1409,55 @@ Package pdftex.def Info: ProposedApproach/old_method_roc_mpeg2.png used on inpu
 t line 61.
 (pdftex.def)             Requested size: 197.89932pt x 142.26378pt.
 
-<ProposedApproach/old_method_roc_h264.png, id=225, 378.213pt x 317.0244pt>
+<ProposedApproach/old_method_roc_h264.png, id=292, 378.213pt x 317.0244pt>
 File: ProposedApproach/old_method_roc_h264.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_h264.png>
 Package pdftex.def Info: ProposedApproach/old_method_roc_h264.png used on input
  line 63.
 (pdftex.def)             Requested size: 169.72104pt x 142.26378pt.
- [6 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_metho
-d_roc_h264.png>]
-<ProposedApproach/id_source_mb.png, id=242, 1617.04124pt x 756.8275pt>
+ [11 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_meth
+od_roc_h264.png>]
+<ProposedApproach/id_source_mb.png, id=310, 1617.04124pt x 756.8275pt>
 File: ProposedApproach/id_source_mb.png Graphic file (type png)
 
 <use ProposedApproach/id_source_mb.png>
 Package pdftex.def Info: ProposedApproach/id_source_mb.png used on input line 8
 3.
 (pdftex.def)             Requested size: 390.25537pt x 182.647pt.
- [7 <./ProposedApproach/id_source_mb.png>] <ProposedApproach/formation_p_vector
-.png, id=250, 748.7975pt x 781.92125pt>
+ [12 <./ProposedApproach/id_source_mb.png>]
+<ProposedApproach/formation_p_vector.png, id=318, 748.7975pt x 781.92125pt>
 File: ProposedApproach/formation_p_vector.png Graphic file (type png)
 
 <use ProposedApproach/formation_p_vector.png>
 Package pdftex.def Info: ProposedApproach/formation_p_vector.png used on input 
 line 113.
-(pdftex.def)             Requested size: 390.25537pt x 407.5201pt.
- [8] [9 <./ProposedApproach/formation_p_vector.png>]
-<ProposedApproach/perror_seq_comparisons.png, id=265, 1011.78pt x 505.89pt>
+(pdftex.def)             Requested size: 238.49232pt x 249.03873pt.
+ [13]
+<ProposedApproach/perror_seq_comparisons.png, id=327, 1011.78pt x 505.89pt>
 File: ProposedApproach/perror_seq_comparisons.png Graphic file (type png)
 
 <use ProposedApproach/perror_seq_comparisons.png>
 Package pdftex.def Info: ProposedApproach/perror_seq_comparisons.png used on in
 put line 123.
 (pdftex.def)             Requested size: 390.25537pt x 195.12718pt.
- [10 <./ProposedApproach/perror_seq_comparisons.png>]
-
-LaTeX Warning: Citation 'Stamm' on page 11 undefined on input line 130.
-
-<ProposedApproach/perror_fdel_comparison.png, id=274, 722.7pt x 578.16pt>
+ [14 <./ProposedApproach/formation_p_vector.png>]
+<ProposedApproach/perror_fdel_comparison.png, id=337, 722.7pt x 578.16pt>
 File: ProposedApproach/perror_fdel_comparison.png Graphic file (type png)
 
 <use ProposedApproach/perror_fdel_comparison.png>
 Package pdftex.def Info: ProposedApproach/perror_fdel_comparison.png used on in
 put line 133.
-(pdftex.def)             Requested size: 390.25537pt x 312.20175pt.
- [11 <./ProposedApproach/perror_fdel_comparison.png>]) [12]
+(pdftex.def)             Requested size: 325.21501pt x 260.16959pt.
+ [15 <./ProposedApproach/perror_seq_comparisons.png>] [16 <./ProposedApproach/p
+error_fdel_comparison.png>])
+[17]
 Chapter Bibliography
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 89.
+less on input line 91.
 
-[13
+[18
 
 
 
@@ -1424,57 +1470,49 @@ Appendix . Some Appendix Heading
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 25.
 
-[14
+[19
 
 
-] [15]
+] [20]
 Appendix A. Another Appendix Heading
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 27.
 
-[16
+[21
 
-]) [17]
+]) [22]
 Appendix Vita
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 95.
+less on input line 97.
 
-[18
+[23
 
 
-] [19
+] [24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
- (./hk_thesis.aux (./ProblemFormulation/problem_formulation.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+ (./hk_thesis.aux (./Background/background.aux)
+(./ProblemFormulation/problem_formulation.aux)
 (./ProposedApproach/proposed_approach.aux) (./example-a.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `hk_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E959D0BC51B6A14A68C8484BB1B96165;1387.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                hk_thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: EA5AEB14D4218752E929421B8AC2FC0C;1718.
 Package logreq Info: Writing requests to 'hk_thesis.run.xml'.
 \openout1 = `hk_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  )
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
- 26710 strings out of 492995
- 487212 string characters out of 6132704
- 941618 words of memory out of 5000000
- 29696 multiletter control sequences out of 15000+600000
+ 26811 strings out of 492995
+ 488938 string characters out of 6132704
+ 943993 words of memory out of 5000000
+ 29768 multiletter control sequences out of 15000+600000
  16257 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,94p,1121b,1787s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1499,10 +1537,10 @@ e1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on hk_thesis.pdf (29 pages, 2161921 bytes).
+Output written on hk_thesis.pdf (34 pages, 3451907 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

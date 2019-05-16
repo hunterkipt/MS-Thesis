@@ -8,22 +8,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Abstract}{vii}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Problem Formulation}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Video Frame Deletion Detection}{2}{section.1.1}
+\contentsline {section}{\numberline {1.1}Video Encoding}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Proposed Approach}{4}{chapter.2}
+\contentsline {section}{\numberline {1.2}Frame Deletion Detection}{5}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Prediction Error Sequence Extraction}{4}{section.2.1}
+\contentsline {section}{\numberline {1.3}Autoregressive Models}{5}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Proposed Prediction Error Sequence Extractor for H.264}{7}{subsection.2.1.1}
+\contentsline {section}{\numberline {1.4}Support Vector Machines}{5}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Proposed Detection Algorithm}{10}{section.2.2}
+\contentsline {chapter}{\numberline {2}Problem Formulation}{6}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Video Frame Deletion Detection}{7}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Proposed Approach}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Prediction Error Sequence Extraction}{9}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Proposed Prediction Error Sequence Extractor for H.264}{12}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Proposed Detection Algorithm}{14}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname ~} \renewcommand {\cftchapaftersnum }{:}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Some Appendix Heading}{14}{appendix.A}
+\contentsline {chapter}{\numberline {A}Some Appendix Heading}{19}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Another Appendix Heading}{16}{appendix.B}
+\contentsline {chapter}{\numberline {B}Another Appendix Heading}{21}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Vita}{18}{section*.14}
+\contentsline {chapter}{Vita}{23}{section*.17}
