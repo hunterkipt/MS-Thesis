@@ -34,7 +34,7 @@ The H.264 specification contains many advancements in the motion compensation an
 
 It is also possible for the encoder to entirely skip a prediction for a given macroblock. Instead, the macroblock is directly copied from a previously decoded frame. These are known as skip macroblocks, or S-blocks.
 
-The most notable improvement from H.264 over MPEG-2 is the ability for the encoder to have a substantially frame buffer. This allows for macroblocks in predicted frames to derive the motion vectors from across multiple different anchor frames. Effectively, a B-frame could be composed of macroblocks sourced from all anchor frames in the encoder's frame buffer. This substantially reduces the prediction error of any given macroblock. Fig. ~\ref{multipred} shows an example of this. The first B-frame can source macroblocks from any I and P-frame in the encoder's frame buffer.
+The most notable improvement from H.264 over MPEG-2 is the ability for the encoder to have a substantially frame buffer. This allows for macroblocks in predicted frames to derive the motion vectors from across multiple different anchor frames. Effectively, a B-frame could be composed of macroblocks sourced from all anchor frames in the encoder's frame buffer. This substantially reduces the prediction error of any given macroblock. Fig. ~\ref{multipred} shows an example of this. The first B-frame can source macroblocks from any I and P-frame within the GOP that is resident in the encoder's frame buffer.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.9\linewidth]{Background/multi_frame_pred.png}}
@@ -43,6 +43,15 @@ The most notable improvement from H.264 over MPEG-2 is the ability for the encod
 \end{figure}
 
 \section{Frame Deletion Detection}
+
+Detecting the tampering of a video uses similar general techniques that were originally used for detecting tampering in images. In most cases, a statistical fingerprint is extracted from the media source which contains information about the specific method of tampering an investigator wishes to detect. Frame deletion detection in video was originally found to create two distinct fingerprints in the underlying video \cite{wang}. 
+
+One of these fingerprints was spatial in nature. When a video has had frames removed from it using video editing software, the video had to first be decoded. One could simply store the decoded video without recompression, but then they would run into storage limitations as shown previously. Thus, it is common to recompress a video after removing frames. In this manner, detecting frame deletion in video is related to detecting double compression of video. Due to the JPEG-like process of encoding I-frames, Wang and Farid showed that a similar fingerprint to the one used to detect double JPEG compression \cite{doubleJPEG} \cite{doubleJPEG2} is found in the I-frames of doubly compressed MPEG video. Note that this fingerprint occurs even if no frames are removed from the video. Thus, more information is needed to determine whether or not a video has had frames removed from it.
+
+The temporal fingerprint observed by Wang and Farid can make this distinction. The temporal fingerprint occurs due to the structure of the motion compensation and estimation process in MPEG-2 encoding. In each GOP, the statically compressed I-frame is there to prevent excessive buildup of motion estimation errors. The first P-frame in a GOP is thus directly encoded with respect to the I-frame. As each subsequent P-frame in the GOP is encoded based on the previous P-frame, it can be said the these P-frames are indirectly encoded with respect to the initial I-frame. As well, the content of each P-frame was found to be correlated with the I-frame. Wang and Farid explain this phenomenon as the result of the JPEG-like compression process of the I-frame \cite{wang}. The compression artifacts propagate through the P-frames resulting in each P-frame being correlated to its previous anchor frame. In addition, the correlation between P-frames in different GOPs is reduced compared to the correlation within a single GOP.
+
+To explain this more explicitly, Wang and Farid consider a simple 5-frame sequence.
+%TODO Put in wang and farid's 5-frame mathematical example.
 
 \section{Autoregressive Models}
 
