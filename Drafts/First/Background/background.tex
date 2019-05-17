@@ -50,8 +50,14 @@ One of these fingerprints was spatial in nature. When a video has had frames rem
 
 The temporal fingerprint observed by Wang and Farid can make this distinction. The temporal fingerprint occurs due to the structure of the motion compensation and estimation process in MPEG-2 encoding. In each GOP, the statically compressed I-frame is there to prevent excessive buildup of motion estimation errors. The first P-frame in a GOP is thus directly encoded with respect to the I-frame. As each subsequent P-frame in the GOP is encoded based on the previous P-frame, it can be said the these P-frames are indirectly encoded with respect to the initial I-frame. As well, the content of each P-frame was found to be correlated with the I-frame. Wang and Farid explain this phenomenon as the result of the JPEG-like compression process of the I-frame \cite{wang}. The compression artifacts propagate through the P-frames resulting in each P-frame being correlated to its previous anchor frame. In addition, the correlation between P-frames in different GOPs is reduced compared to the correlation within a single GOP.
 
-To explain this more explicitly, Wang and Farid consider a simple 5-frame sequence.
+%To explain this more explicitly, Wang and Farid consider a simple 5-frame sequence.
 %TODO Put in wang and farid's 5-frame mathematical example.
+
+When frames are removed from a video, the new sequence of frames has GOPs that contain frames from across multiple GOPs in the original unaltered video. As a result, some frames can change type, and predicted frames can derive their predictions from frames originally in another GOP. This effect can be seen in Fig. ~\ref{}. Frames X-Y were removed from the original video sequence. Note that frames X, Y, and Z have become I-frames when they were originally P-frames, and frames Q, R, and S have become P-frames when they were originally I-frames. When frames derive their predictions across GOP boundaries, the correlation between the frames is lower, and thus there is an increase in prediction error. Wang and Farid show that for fixed GOP videos, this increase is periodic with respect to the length of a GOP.
+
+While Wang and Farid showed that this fingerprint exists, they did not formulate a detection algorithm for this fingerprint, nor did they test the effects of frame deletion on variable GOP video. They relied on visual inspection of the Discrete Fourier Transform (DFT) of the prediction error sequence for detecting frame deletion.
+
+
 
 \section{Autoregressive Models}
 

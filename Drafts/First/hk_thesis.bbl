@@ -168,6 +168,60 @@
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 
+  \entry{doubleJPEG}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Luk{\'a}{\v{s}}},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJFJ1}
+    \strng{fullhash}{LJFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proc. Digital forensic research workshop}
+    \field{pages}{5\bibrangedash 8}
+    \field{title}{Estimation of primary quantization matrix in double
+  compressed JPEG images}
+    \field{year}{2003}
+  \endentry
+
+  \entry{doubleJPEG2}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=PAC}{%
+         family={Popescu},
+         familyi={P\bibinitperiod},
+         given={Alin\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PACFH1}
+    \strng{fullhash}{PACFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Workshop on Information Hiding}
+    \field{pages}{128\bibrangedash 147}
+    \field{title}{Statistical tools for digital forensics}
+    \field{year}{2004}
+  \endentry
+
   \entry{stamm}{article}{}
     \name{author}{3}{}{%
       {{hash=SMC}{%
