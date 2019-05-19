@@ -263,6 +263,201 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Liu}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={{Liu}},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KX}{%
+         family={{Kang}},
+         familyi={K\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJKX1}
+    \strng{fullhash}{LJKX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 Asia-Pacific Signal and Information Processing
+  Association Annual Summit and Conference (APSIPA)}
+    \verb{doi}
+    \verb 10.1109/APSIPA.2016.7820694
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Exposing heterogeneous chain of video recompression}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Mandelli}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=MS}{%
+         family={{Mandelli}},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={{Bestagini}},
+         familyi={B\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={{Tubaro}},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={{Cozzolino}},
+         familyi={C\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={{Verdoliva}},
+         familyi={V\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MSBPTS+1}
+    \strng{fullhash}{MSBPTSCDVL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 26th European Signal Processing Conference
+  (EUSIPCO)}
+    \verb{doi}
+    \verb 10.23919/EUSIPCO.2018.8553511
+    \endverb
+    \field{issn}{2076-1465}
+    \field{pages}{1362\bibrangedash 1366}
+    \field{title}{Blind Detection and Localization of Video Temporal Splicing
+  Exploiting Sensor-Based Footprints}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Vazquez}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=VD}{%
+         family={{Vazquez-Padin}},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Fontani}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={{Bianchi}},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={{Comesana}},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={{Piva}},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={{Barni}},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VDFMBT+1}
+    \strng{fullhash}{VDFMBTCPPABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2012 IEEE International Workshop on Information Forensics
+  and Security (WIFS)}
+    \verb{doi}
+    \verb 10.1109/WIFS.2012.6412641
+    \endverb
+    \field{issn}{2157-4766}
+    \field{pages}{151\bibrangedash 156}
+    \field{title}{Detection of video double encoding with GOP size estimation}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{barni}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=GA}{%
+         family={{Gironi}},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Fontani}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={{Bianchi}},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={{Piva}},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={{Barni}},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAFMBT+1}
+    \strng{fullhash}{GAFMBTPABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2014 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)}
+    \verb{doi}
+    \verb 10.1109/ICASSP.2014.6854801
+    \endverb
+    \field{issn}{1520-6149}
+    \field{pages}{6226\bibrangedash 6230}
+    \field{title}{A video forensic technique for detecting frame deletion and
+  insertion}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ARmodels}{inbook}{}
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \field{labeltitlesource}{title}
+    \field{chapter}{1}
+    \field{title}{Adaptive Filter Theory}
+    \field{year}{2002}
+  \endentry
+
   \entry{svm}{article}{}
     \name{author}{2}{}{%
       {{hash=CC}{%
@@ -296,6 +491,27 @@
     \field{journaltitle}{Machine Learning}
     \field{year}{1995}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{plattscaling}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Platt},
+         familyi={P\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Probabilistic Outputs for Support Vector Machines and
+  Comparisons to Regularized Likelihood Methods}
+    \field{volume}{10}
+    \field{journaltitle}{Adv. Large Margin Classif.}
+    \field{month}{06}
+    \field{year}{2000}
   \endentry
 \endsortlist
 \endinput

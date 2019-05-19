@@ -50,15 +50,46 @@ One of these fingerprints was spatial in nature. When a video has had frames rem
 
 The temporal fingerprint observed by Wang and Farid can make this distinction. The temporal fingerprint occurs due to the structure of the motion compensation and estimation process in MPEG-2 encoding. In each GOP, the statically compressed I-frame is there to prevent excessive buildup of motion estimation errors. The first P-frame in a GOP is thus directly encoded with respect to the I-frame. As each subsequent P-frame in the GOP is encoded based on the previous P-frame, it can be said the these P-frames are indirectly encoded with respect to the initial I-frame. As well, the content of each P-frame was found to be correlated with the I-frame. Wang and Farid explain this phenomenon as the result of the JPEG-like compression process of the I-frame \cite{wang}. The compression artifacts propagate through the P-frames resulting in each P-frame being correlated to its previous anchor frame. In addition, the correlation between P-frames in different GOPs is reduced compared to the correlation within a single GOP.
 
-%To explain this more explicitly, Wang and Farid consider a simple 5-frame sequence.
-%TODO Put in wang and farid's 5-frame mathematical example.
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.9\linewidth]{Background/frame_deletion.png}}
+\caption[Visualization of the Effects of Frame Deletion on a Sample MPEG-2 Encoded Video.]{Visualization of the effects of frame deletion on a sample MPEG-2 encoded video. The top row shows the original encoded sequence, while the bottom rows show the effects of deleting the three highlighted frames.}
+\label{framedeletion}
+\end{figure}
 
-When frames are removed from a video, the new sequence of frames has GOPs that contain frames from across multiple GOPs in the original unaltered video. As a result, some frames can change type, and predicted frames can derive their predictions from frames originally in another GOP. This effect can be seen in Fig. ~\ref{}. Frames X-Y were removed from the original video sequence. Note that frames X, Y, and Z have become I-frames when they were originally P-frames, and frames Q, R, and S have become P-frames when they were originally I-frames. When frames derive their predictions across GOP boundaries, the correlation between the frames is lower, and thus there is an increase in prediction error. Wang and Farid show that for fixed GOP videos, this increase is periodic with respect to the length of a GOP.
+When frames are removed from a video, the new sequence of frames has GOPs that contain frames from across multiple GOPs in the original unaltered video. As a result, some frames can change type, and predicted frames can derive their predictions from frames originally in another GOP. This effect can be seen in Fig. ~\ref{framedeletion}. Frames 6-8 were removed from the original video sequence. Note that frame 13 has become an I-frame when it was originally a P-frame, and frames 10 and 19 have become P-frames when they were originally I-frames. When frames derive their predictions across GOP boundaries, the correlation between the frames is lower, and thus there is an increase in prediction error. Wang and Farid show that for fixed GOP videos, this increase is periodic with respect to the length of a GOP.
 
-While Wang and Farid showed that this fingerprint exists, they did not formulate a detection algorithm for this fingerprint, nor did they test the effects of frame deletion on variable GOP video. They relied on visual inspection of the Discrete Fourier Transform (DFT) of the prediction error sequence for detecting frame deletion.
+As such, Wang and Farid proposed observing the average inter-frame prediction error for each P-frame in a given video. If there are periodic spikes in this P-frame prediction error sequence, then the video has had frames removed from it. While Wang and Farid showed that this fingerprint exists, they did not formulate a detection algorithm for this fingerprint, nor did they test the effects of frame deletion on variable GOP video. They relied on visual inspection of the Discrete Fourier Transform (DFT) of the P-frame prediction error sequence for detecting frame deletion.
 
+Further work was done by Stamm et al. \cite{stamm} on using the temporal fingerprint proposed by Wang and Farid to detect frame deletion in MPEG-2 video. Stamm et al. proposed an initial model for the fingerprint itself, and how to separate an estimate of the fingerprint from a given P-frame prediction error sequence. They then formulated two decision rules based on the estimated fingerprint signal. One was for fixed GOP video, and the other was for variable GOP video. The variable GOP decision rule was found to also work for fixed GOP video as well, since it was based on the total energy in the estimated fingerprint signal.
 
+This work still had limitations. First, it is not clear whether this detection method is robust to advancements in video encoding, particularly the ability for H.264 to derive motion vectors across multiple anchor frames. As well, both Stamm et al. and Wang and Farid were limited in the type of data they were able to generate for their experiments. They both used video with carefully controlled processing histories that are not necessarily representative of video that can be found in real world scenarios.
+
+\subsection{Frame Deletion Detection on H.264}
+
+Work on frame deletion detection in more modern video codecs, such as H.264 or MPEG-4 so far has been limited. Techniques have been proposed based on Wang and Farid and Stamm et al.'s original solutions for MPEG-2. However, they only cover video without B-Frames and the scenario where the altered video undergoes recompression with a different GOP size after frames have been removed \cite{Liu}. Another technique based on detecting mismatches in image sensor based traces within a video \cite{Mandelli} is able to detect video splicing, where content is stitched together from multiple camera sources. However, this technique may not work on video take only from one camera, as well as video that has undergone motion stabilization, a post-processing technique found in many smartphone cameras.
+
+Of particular note is a technique proposed V\'azquez-Pad\'in et al. They found that when H.264 video is reencoded, particularly when GOP sizes do not match between encodings, the number of I-blocks and S-blocks vary from expected values when P-frames are encoded as I-frames and vice-versa. V\'azquez-Pad\'in et al. showed that it is possible to use this mismatch to determine whether an H.264 video has been recompressed \cite{Vazquez}. This technique was expanded upon by Gironi et al. \cite{barni}. As videos that have undergone frame deletion will naturally have frames change type upon reencoding, the same mismatch in the number of expected I and S-blocks appears in videos with frame deletion as well. Gironi et al. reformulated the proposed fingerprint by V\'azquez-Pad\'in et al. to work in this context. However, the method proposed by Gironi et al. is unable to work on video that has a variable GOP size.
 
 \section{Autoregressive Models}
 
+An autoregressive (AR) model is a statistical model of a stochastic process. The model seeks to predict future values of the process based on past observations. They are used for forecasting when there is some correlation between the values within the process. The future values are modeled as a linear combination of past observations (called lag variables) and white noise. You only use data from the same process to model the future values, thus the name "autoregressive". Effectively an AR model is a linear regression of the past data in a stochastic process where the target value is a future value of the process.
+
+The model order of an AR model depends on the number of lag variables used in calculating the future values. Thus for a $K^{th}$ order AR model, the current time series $X_t$ is defined as
+
+\begin{equation}
+X_{t} = c + \sum_{i = 1}^{K} \varphi_{i} X_{t-i} + \varepsilon_{t}
+\end{equation}
+
+where $\varphi_{1}, \dots, \varphi_{K}$ are the AR model parameters, $c$ is a constant and $\varepsilon_{t}$ is white noise. The variance of the white noise component determines the degree to which the model is able to fit the stochastic process. AR models are solved using the Yule-Walker equations as found in \cite{ARmodels}.
+
 \section{Support Vector Machines}
+
+Support Vector Machines (SVMs) are a widely popular machine learning technique for classification \cite{svm}. The goal of an SVM is to learn an optimal separating hyperplane between classes of data by maximizing the margin between the data points in each class that are closest to data points in the other classes. These closest points are known as support vectors. The support vector machine learns a discriminate function based on these support vectors. The SVM does not make a probabilistic model of the data to determine classification. However, there are techniques \cite{plattscaling} to scale the data in such a fashion that the SVM can return an estimate of the probability that a data point is from a particular class. Fig. ~\ref{svmvis} shows an example of creating a binary decision function  using an SVM.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.7\linewidth]{Background/svm_vis.png}}
+\caption{Visualization of the Optimal Hyperplane Learned by an SVM }
+\label{svmvis}
+\end{figure}
+
+An SVM uses a kernel function to determine the similarity or distance between data points. A kernel function is simply a function that can compare the similarity of two input data points. This means that an SVM can learn nonlinear decision surfaces, given the right kernel. One of the most popular kernels to use is the radial basis kernel. The radial basis kernel projects the data onto a Taylor series expansion of a gaussian distribution.
