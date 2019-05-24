@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 MAY 2019 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 MAY 2019 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1435,7 +1435,7 @@ less on input line 13.
 
 
 
-]) [2] [3]
+] [2]) [3]
 \openout2 = `Background/background.aux'.
 
  (./Background/background.tex
@@ -1479,20 +1479,20 @@ File: Background/frame_deletion.png Graphic file (type png)
 Package pdftex.def Info: Background/frame_deletion.png used on input line 54.
 (pdftex.def)             Requested size: 390.25537pt x 174.83328pt.
  [8] [9 <./Background/frame_deletion.png>]
-[10] <Background/svm_vis.png, id=332, 657.45625pt x 641.39626pt>
+[10] [11] <Background/svm_vis.png, id=341, 657.45625pt x 641.39626pt>
 File: Background/svm_vis.png Graphic file (type png)
 
 <use Background/svm_vis.png>
 Package pdftex.def Info: Background/svm_vis.png used on input line 90.
 (pdftex.def)             Requested size: 303.53268pt x 296.1224pt.
- [11]) [12 <./Background/svm_vis.png>]
+) [12 <./Background/svm_vis.png>]
 \openout2 = `ProblemFormulation/problem_formulation.aux'.
 
 
 (./ProblemFormulation/problem_formulation.tex
 Chapter 2. Problem Formulation
 
-<ProblemFormulation/frame_deletion_detection_system.png, id=352, 1501.61pt x 34
+<ProblemFormulation/frame_deletion_detection_system.png, id=351, 1501.61pt x 34
 9.305pt>
 File: ProblemFormulation/frame_deletion_detection_system.png Graphic file (type
  png)
@@ -1528,7 +1528,7 @@ less on input line 25.
 
 
 ] [17]
-<ProposedApproach/old_method_roc_mpeg2.png, id=389, 999.735pt x 718.685pt>
+<ProposedApproach/old_method_roc_mpeg2.png, id=388, 999.735pt x 718.685pt>
 File: ProposedApproach/old_method_roc_mpeg2.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_mpeg2.png>
@@ -1536,7 +1536,7 @@ Package pdftex.def Info: ProposedApproach/old_method_roc_mpeg2.png used on inpu
 t line 61.
 (pdftex.def)             Requested size: 197.89932pt x 142.26378pt.
 
-<ProposedApproach/old_method_roc_h264.png, id=390, 378.213pt x 317.0244pt>
+<ProposedApproach/old_method_roc_h264.png, id=389, 378.213pt x 317.0244pt>
 File: ProposedApproach/old_method_roc_h264.png Graphic file (type png)
 
 <use ProposedApproach/old_method_roc_h264.png>
@@ -1545,7 +1545,7 @@ Package pdftex.def Info: ProposedApproach/old_method_roc_h264.png used on input
 (pdftex.def)             Requested size: 169.72104pt x 142.26378pt.
  [18 <./ProposedApproach/old_method_roc_mpeg2.png> <./ProposedApproach/old_meth
 od_roc_h264.png>]
-<ProposedApproach/id_source_mb.png, id=407, 1617.04124pt x 756.8275pt>
+<ProposedApproach/id_source_mb.png, id=406, 1617.04124pt x 756.8275pt>
 File: ProposedApproach/id_source_mb.png Graphic file (type png)
 
 <use ProposedApproach/id_source_mb.png>
@@ -1553,7 +1553,7 @@ Package pdftex.def Info: ProposedApproach/id_source_mb.png used on input line 8
 3.
 (pdftex.def)             Requested size: 390.25537pt x 182.647pt.
  [19 <./ProposedApproach/id_source_mb.png>]
-<ProposedApproach/formation_p_vector.png, id=415, 748.7975pt x 781.92125pt>
+<ProposedApproach/formation_p_vector.png, id=414, 748.7975pt x 781.92125pt>
 File: ProposedApproach/formation_p_vector.png Graphic file (type png)
 
 <use ProposedApproach/formation_p_vector.png>
@@ -1561,7 +1561,7 @@ Package pdftex.def Info: ProposedApproach/formation_p_vector.png used on input
 line 113.
 (pdftex.def)             Requested size: 238.49232pt x 249.03873pt.
  [20]
-<ProposedApproach/perror_seq_comparisons.png, id=424, 1011.78pt x 505.89pt>
+<ProposedApproach/perror_seq_comparisons.png, id=423, 1011.78pt x 505.89pt>
 File: ProposedApproach/perror_seq_comparisons.png Graphic file (type png)
 
 <use ProposedApproach/perror_seq_comparisons.png>
@@ -1569,7 +1569,7 @@ Package pdftex.def Info: ProposedApproach/perror_seq_comparisons.png used on in
 put line 123.
 (pdftex.def)             Requested size: 390.25537pt x 195.12718pt.
  [21 <./ProposedApproach/formation_p_vector.png>]
-<ProposedApproach/perror_fdel_comparison.png, id=434, 722.7pt x 578.16pt>
+<ProposedApproach/perror_fdel_comparison.png, id=433, 722.7pt x 578.16pt>
 File: ProposedApproach/perror_fdel_comparison.png Graphic file (type png)
 
 <use ProposedApproach/perror_fdel_comparison.png>
@@ -1585,80 +1585,81 @@ error_fdel_comparison.png>])
 Chapter 4. Experimental Results
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 29.
+less on input line 28.
 
 [25
 
 
 
 ]
-<ExperimentalResults/new_perror_extract_roc_asus.png, id=461, 405.1938pt x 333.
+<ExperimentalResults/new_perror_extract_roc_asus.png, id=463, 405.1938pt x 333.
 1647pt>
 File: ExperimentalResults/new_perror_extract_roc_asus.png Graphic file (type pn
 g)
  <use ExperimentalResults/new_perror_extract_roc_asus.png>
 Package pdftex.def Info: ExperimentalResults/new_perror_extract_roc_asus.png us
-ed on input line 31.
+ed on input line 33.
 (pdftex.def)             Requested size: 303.53268pt x 249.57805pt.
- [26 <./ExperimentalResults/new_perror_extract_roc_asus.png>]
-<ExperimentalResults/svm_perror_compare_roc.png, id=470, 449.0376pt x 383.5128p
+
+<ExperimentalResults/svm_perror_compare_roc.png, id=465, 449.0376pt x 383.5128p
 t>
 File: ExperimentalResults/svm_perror_compare_roc.png Graphic file (type png)
  <use ExperimentalResults/svm_perror_compare_roc.png>
 Package pdftex.def Info: ExperimentalResults/svm_perror_compare_roc.png used on
  input line 41.
 (pdftex.def)             Requested size: 303.53268pt x 259.24034pt.
- [27 <./ExperimentalResults/svm_perror_compare_roc.png>]
-<ExperimentalResults/new_perror_extract_roc_full_ds.png, id=477, 396.2805pt x 3
+ [26 <./ExperimentalResults/new_perror_extract_roc_asus.png>] [27 <./Experiment
+alResults/svm_perror_compare_roc.png>]
+<ExperimentalResults/new_perror_extract_roc_full_ds.png, id=479, 396.2805pt x 3
 32.442pt>
 File: ExperimentalResults/new_perror_extract_roc_full_ds.png Graphic file (type
  png)
  <use ExperimentalResults/new_perror_extract_roc_full_ds.png>
 Package pdftex.def Info: ExperimentalResults/new_perror_extract_roc_full_ds.png
- used on input line 53.
+ used on input line 57.
 (pdftex.def)             Requested size: 303.53268pt x 254.65208pt.
- [28 <./ExperimentalResults/new_perror_extract_roc_full_ds.png>]
-<ExperimentalResults/log_scale_rbf_search.png, id=483, 462.528pt x 346.896pt>
+
+<ExperimentalResults/log_scale_rbf_search.png, id=480, 462.528pt x 346.896pt>
 File: ExperimentalResults/log_scale_rbf_search.png Graphic file (type png)
 
 <use ExperimentalResults/log_scale_rbf_search.png>
 Package pdftex.def Info: ExperimentalResults/log_scale_rbf_search.png used on i
-nput line 64.
+nput line 66.
 (pdftex.def)             Requested size: 189.6871pt x 142.26378pt.
 
-<ExperimentalResults/lin_scale_rbf_search.png, id=484, 462.528pt x 346.896pt>
+<ExperimentalResults/lin_scale_rbf_search.png, id=481, 462.528pt x 346.896pt>
 File: ExperimentalResults/lin_scale_rbf_search.png Graphic file (type png)
 
 <use ExperimentalResults/lin_scale_rbf_search.png>
 Package pdftex.def Info: ExperimentalResults/lin_scale_rbf_search.png used on i
-nput line 66.
+nput line 68.
 (pdftex.def)             Requested size: 189.6871pt x 142.26378pt.
 
-<ExperimentalResults/full_ds_compare_roc.png, id=487, 447.5922pt x 398.2077pt>
+<ExperimentalResults/full_ds_compare_roc.png, id=484, 447.5922pt x 398.2077pt>
 File: ExperimentalResults/full_ds_compare_roc.png Graphic file (type png)
 
 <use ExperimentalResults/full_ds_compare_roc.png>
 Package pdftex.def Info: ExperimentalResults/full_ds_compare_roc.png used on in
-put line 74.
+put line 76.
 (pdftex.def)             Requested size: 303.53268pt x 270.05458pt.
- [29 <./ExperimentalResults/log_scale_rbf_search.png> <./ExperimentalResults/li
-n_scale_rbf_search.png>]
-[30 <./ExperimentalResults/full_ds_compare_roc.png>]
-<ExperimentalResults/regular_cm.png, id=503, 462.528pt x 346.896pt>
-File: ExperimentalResults/regular_cm.png Graphic file (type png)
+ [28] [29 <./ExperimentalResults/new_perror_extract_roc_full_ds.png> <./Experim
+entalResults/log_scale_rbf_search.png> <./ExperimentalResults/lin_scale_rbf_sea
+rch.png>] [30 <./ExperimentalResults/full_ds_compare_roc.png>]
+<ExperimentalResults/normal_cm.png, id=504, 462.528pt x 346.896pt>
+File: ExperimentalResults/normal_cm.png Graphic file (type png)
 
-<use ExperimentalResults/regular_cm.png>
-Package pdftex.def Info: ExperimentalResults/regular_cm.png used on input line 
-95.
-(pdftex.def)             Requested size: 303.53268pt x 227.66052pt.
- [31 <./ExperimentalResults/regular_cm.png>] <ExperimentalResults/scaled_cm.png
-, id=511, 462.528pt x 346.896pt>
+<use ExperimentalResults/normal_cm.png>
+Package pdftex.def Info: ExperimentalResults/normal_cm.png used on input line 9
+5.
+(pdftex.def)             Requested size: 290.52461pt x 217.90515pt.
+ [31 <./ExperimentalResults/normal_cm.png>] <ExperimentalResults/scaled_cm.png,
+ id=513, 462.528pt x 346.896pt>
 File: ExperimentalResults/scaled_cm.png Graphic file (type png)
 
 <use ExperimentalResults/scaled_cm.png>
 Package pdftex.def Info: ExperimentalResults/scaled_cm.png used on input line 1
-05.
-(pdftex.def)             Requested size: 303.53268pt x 227.66052pt.
+07.
+(pdftex.def)             Requested size: 290.52461pt x 217.90515pt.
 ) [32 <./ExperimentalResults/scaled_cm.png>]
 \openout2 = `Conclusion/conclusion.aux'.
 
@@ -1706,12 +1707,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
  28183 strings out of 492995
- 512010 string characters out of 6132704
- 971119 words of memory out of 5000000
+ 512005 string characters out of 6132704
+ 971153 words of memory out of 5000000
  31044 multiletter control sequences out of 15000+600000
  16257 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,94p,1275b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,94p,1316b,1802s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017
@@ -1733,10 +1734,10 @@ e1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/doublestroke/dsrom10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on hk_thesis.pdf (44 pages, 4456131 bytes).
+Output written on hk_thesis.pdf (44 pages, 4444024 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 541 compressed objects within 6 object streams
+ 657 PDF objects out of 1000 (max. 8388607)
+ 544 compressed objects within 6 object streams
  132 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

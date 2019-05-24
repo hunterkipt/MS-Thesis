@@ -66,7 +66,7 @@ To test this, we collected 257 videos from a cell phone camera (the ASUS ZenFone
 \end{figure}
 
 
-As shown in Fig. ~\ref{oldMethodCompare} the perfomance of the detector using the methodology derived for MPEG-2 videos suffers a significant decrease when used on H.264 video, particularly at low false alarm rates. This is due to a limitation in the model used by Stamm et al. above in Equation ~\ref{stammModel}. As it is possible to predict across multiple previous anchor frames in H.264, the contribution of the fingerprint signal is variable over time. This variation is also not regular, as scene content and motion determine how many cross GOP predictions are present in each P-frame. Thus we propose the updated model for the fingerprint signal as
+As shown in Fig.~\ref{oldMethodCompare} the perfomance of the detector using the methodology derived for MPEG-2 videos suffers a significant decrease when used on H.264 video, particularly at low false alarm rates. This is due to a limitation in the model used by Stamm et al. above in Equation~\ref{stammModel}. As it is possible to predict across multiple previous anchor frames in H.264, the contribution of the fingerprint signal is variable over time. This variation is also not regular, as scene content and motion determine how many cross GOP predictions are present in each P-frame. Thus we propose the updated model for the fingerprint signal as
 
 \begin{equation}
 s(n) = \beta(n) \mathds{1} \left( \Theta(n) = 0 \right).
@@ -117,7 +117,7 @@ This entire process is repeated for every P frame in the video. This method of e
 
 \section{Proposed Detection Algorithm}
 
-In addition to the new methods for prediction error extraction, we propose an expanded detection algorithm to better capture the statistical differences between videos. In fact, depending on scene content, video capture settings, and the amount of motion captured in a single recording, the prediction error sequence and fingerprint signal exhibit different structural behavior. This is true even for videos captured from a single camera model. Figure ~\ref{seqCompare} shows this clearly. The two videos were captured from an LG Nexus 5X using the high quality 1080p capture mode. Both videos were shot using similar scene content, but the amount of motion in each video is different. The first video was shot with hight motion, while the second video was comparatively low motion. The top row shows the different prediction error sequences, while the bottom row shows the different estimated fingerprint signals.
+In addition to the new methods for prediction error extraction, we propose an expanded detection algorithm to better capture the statistical differences between videos. In fact, depending on scene content, video capture settings, and the amount of motion captured in a single recording, the prediction error sequence and fingerprint signal exhibit different structural behavior. This is true even for videos captured from a single camera model. Figure~\ref{seqCompare} shows this clearly. The two videos were captured from an LG Nexus 5X using the high quality 1080p capture mode. Both videos were shot using similar scene content, but the amount of motion in each video is different. The first video was shot with hight motion, while the second video was comparatively low motion. The top row shows the different prediction error sequences, while the bottom row shows the different estimated fingerprint signals.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.9\linewidth]{ProposedApproach/perror_seq_comparisons.png}}
@@ -125,9 +125,9 @@ In addition to the new methods for prediction error extraction, we propose an ex
 \label{seqCompare}
 \end{figure}
 
-Notice the large discrepancy in magnitude between both types of signals depending on the amount of motion in the video. The original detection criteria defined by Stamm et al. in Equation ~\ref{origdecision} is based on the energy of the estimated fingerprint signal. This will lead to undesirable misclassifications when only using signal energy as the detection feature. Thus, we need a set of new features that can help account for this difference in fingerprint signal energy between videos. 
+Notice the large discrepancy in magnitude between both types of signals depending on the amount of motion in the video. The original detection criteria defined by Stamm et al. in Equation~\ref{origdecision} is based on the energy of the estimated fingerprint signal. This will lead to undesirable misclassifications when only using signal energy as the detection feature. Thus, we need a set of new features that can help account for this difference in fingerprint signal energy between videos. 
 
-Under the old model for the fingerprint signal, $\beta$ was a constant, meaning the fingerprint signal was thought of as a randomly occurring sequence of discrete impulses with a magnitude of $\beta$. With the new model defined in Equation ~\ref{newModel}, $\beta(n)$ is a random variable that takes nonnegative real values. The effect of $\beta(n)$ can be seen in Fig. ~\ref{fdelCompare}. The sample low motion video was reencoded with the first 15 frames removed. This accounts for half of a GOP. As the GOP structure of the video is fixed, it is expected that the fingerprint signal will be periodic \cite{stamm}. The estimated fingerprint signal of the sample video with frame deletion shows some amount of periodicity but the amplitude of the signal varies with time. Modeling this variation of $\beta(n)$ for a given video can help aid in the detection of frame deletion.
+Under the old model for the fingerprint signal, $\beta$ was a constant, meaning the fingerprint signal was thought of as a randomly occurring sequence of discrete impulses with a magnitude of $\beta$. With the new model defined in Equation~\ref{newModel}, $\beta(n)$ is a random variable that takes nonnegative real values. The effect of $\beta(n)$ can be seen in Fig.~\ref{fdelCompare}. The sample low motion video was reencoded with the first 15 frames removed. This accounts for half of a GOP. As the GOP structure of the video is fixed, it is expected that the fingerprint signal will be periodic \cite{stamm}. The estimated fingerprint signal of the sample video with frame deletion shows some amount of periodicity but the amplitude of the signal varies with time. Modeling this variation of $\beta(n)$ for a given video can help aid in the detection of frame deletion.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.75\linewidth]{ProposedApproach/perror_fdel_comparison.png}}
@@ -146,11 +146,11 @@ For a given video $V$, the feature vector used for classification $\bm{x}_{V}$ i
     \sigma_{\hat{s}[n]}^{2} \\
     \mu_{e^{*}[n]} \\
     \sigma_{e^{*}[n]}^{2} \\
-    \bm{a}_{1} \\
-    \bm{a}_{2} \\
+    \bm{w}_{1} \\
+    \bm{w}_{2} \\
   \end{bmatrix}
 \end{equation}
 
-Where $\hat{s}[n]$ is the estimated fingerprint sequence of $e^{*}[n]$ obtained by using Equation ~\ref{estfpsig} above, but substituting $e^{*}[n]$ for $e[n]$, $\mu$ is the sample mean, $\sigma^{2}$ is the sample variance, $\bm{a}_{1}$ are the $Q^{th}$ order AR model parameters for $e^{*}[n]$, and $\bm{a}_{2}$ are the $Q^{th}$ order AR model parameters for $\hat{s}[n]$.
+Where $\hat{s}[n]$ is the estimated fingerprint sequence of $e^{*}[n]$ obtained by using Equation~\ref{estfpsig} above, but substituting $e^{*}[n]$ for $e[n]$, $\mu$ is the sample mean, $\sigma^{2}$ is the sample variance, $\bm{w}_{1}$ are the $Q^{th}$ order AR model parameters for $e^{*}[n]$, and $\bm{w}_{2}$ are the $Q^{th}$ order AR model parameters for $\hat{s}[n]$.
 
 Note that after creating a feature vector for each video, there is no clear way to make a simple classification. It is inadvisable to create a probabilistic model of the feature vector for classification as there is no clear distribution for the AR model parameters. Instead, we propose using a discriminative function to map an incoming feature vector directly to the set of natural videos or the set of videos altered by frame deletion. As such, we propose using a Support Vector Machine (SVM) classifier with a Radial Basis Kernel function for classification \cite{svm}. 

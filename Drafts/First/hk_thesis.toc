@@ -40,6 +40,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Multiple Camera Models}{28}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Additional Work}{30}{section.5.3}
+\contentsline {section}{\numberline {5.3}Additional Work}{31}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusion}{33}{chapter.6}
