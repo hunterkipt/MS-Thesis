@@ -1,0 +1,47 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Visualization of a Video Prediction Error Residual\relax }}{5}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of a GOP Sequence\relax }}{6}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Visualization of Using Multiple Anchor Frames for Prediction in H.264\relax }}{7}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Visualization of the Effects of Frame Deletion on a Sample MPEG-2 Encoded Video.}}{9}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Visualization of the Optimal Hyperplane Learned by an SVM \relax }}{12}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Generalized Approach to Frame Deletion Detection\relax }}{13}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison Between MPEG-2 Detection Methods used on (a) MPEG-2 and (b) H.264}}{18}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MPEG-2 Detector on MPEG-2}}}{18}{subfigure.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MPEG-2 Detector on H.264}}}{18}{subfigure.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Identification of the source macroblock in 3 previous anchor frames\relax }}{19}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Methodology for forming $P[n]$\relax }}{21}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \emph {Top Left} - The extracted prediction error sequence for a high motion video. \emph {Top Right} - The extracted prediction error sequence for a low motion video. \emph {Bottom Left} - Estimated fingerprint signal for a high motion video. \emph {Bottom Right} - Estimated fingerprint signal for a low motion video.\relax }}{22}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \emph {Top} - The extracted prediction error sequence for a low motion video with frame deletion. \emph {Bottom} - The Estimated fingerprint signal for a low motion video with frame deletion.\relax }}{23}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ROC Curves for Fingerprint Energy Detector Obtained by Using Different Prediction Error Extraction Methods\relax }}{26}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ROC Curves for Inferred Prediction Error Energy Detector and SVM on One Camera Model\relax }}{27}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ROC Curves for Fingerprint Energy Detector Obtained by Using Different Prediction Error Extraction Methods on Multiple Camera Models\relax }}{29}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Search for Optimal SVM Hyperparameters on (a) Log Scale and (b) Linear Scale\relax }}{29}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Log Scale Search for SVM Hyperparameters}}}{29}{subfigure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Linear Scale Search for SVM Hyperparameters}}}{29}{subfigure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC Curves for Various Detection Methods on Data from Multiple Camera Models\relax }}{30}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Confusion Matrix for Recompression Classification\relax }}{31}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Confusion Matrix for Recompression Classification using Scaled Data\relax }}{32}{figure.caption.23}
