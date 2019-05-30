@@ -142,15 +142,17 @@ For a given video $V$, the feature vector used for classification $\bm{x}_{V}$ i
 \begin{equation}
   \bm{x}_{V} = \begin{bmatrix}
     \frac{1}{N} \sum_{n=1}^{N} \vert \hat{s}[n] \vert \\
-    \mu_{\hat{s}[n]} \\
-    \sigma_{\hat{s}[n]}^{2} \\
-    \mu_{e^{*}[n]} \\
-    \sigma_{e^{*}[n]}^{2} \\
-    \bm{w}_{1} \\
-    \bm{w}_{2} \\
+    \mu_{\hat{s}} \\
+    \sigma_{\hat{s}}^{2} \\
+    \mu_{e^{*}} \\
+    \sigma_{e^{*}}^{2} \\
+    \bm{w}_{\hat{s}} \\
+    \bm{w}_{e^{*}} \\
+    \sigma_{v(\hat{s})}^{2} \\
+    \sigma_{v(e^{*})} \\
   \end{bmatrix}
 \end{equation}
 
-Where $\hat{s}[n]$ is the estimated fingerprint sequence of $e^{*}[n]$ obtained by using Equation~\ref{estfpsig} above, but substituting $e^{*}[n]$ for $e[n]$, $\mu$ is the sample mean, $\sigma^{2}$ is the sample variance, $\bm{w}_{1}$ are the $Q^{th}$ order AR model parameters for $e^{*}[n]$, and $\bm{w}_{2}$ are the $Q^{th}$ order AR model parameters for $\hat{s}[n]$.
+Where $\hat{s}[n]$ is the estimated fingerprint sequence of $e^{*}[n]$ obtained by using Equation~\ref{estfpsig} above, but substituting $e^{*}[n]$ for $e[n]$, $\mu$ is the sample mean, $\sigma^{2}$ is the sample variance, $\bm{w}$ are the $Q^{th}$ order AR model parameters for each sequence.
 
-Note that after creating a feature vector for each video, there is no clear way to make a simple classification. It is inadvisable to create a probabilistic model of the feature vector for classification as there is no clear distribution for the AR model parameters. Instead, we propose using a discriminative function to map an incoming feature vector directly to the set of natural videos or the set of videos altered by frame deletion. As such, we propose using a Support Vector Machine (SVM) classifier with a Radial Basis Kernel function for classification \cite{svm}. 
+Note that after creating a feature vector for each video, there is no clear way to make a simple classification. It is difficult to create a paremetric model of each feature in the feature vector for classification. Instead, we propose using a discriminative function to map an incoming feature vector directly to the set of natural videos or the set of videos altered by frame deletion. As such, we propose using a Support Vector Machine (SVM) classifier with a Radial Basis Kernel function for classification \cite{svm}. 
