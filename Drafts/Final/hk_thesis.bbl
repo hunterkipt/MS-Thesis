@@ -1,0 +1,1922 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{A}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SMCWMLKR1}
+    \strng{fullhash}{SMCWMLKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{167\bibrangedash 200}
+    \field{title}{Information forensics: An overview of the first decade}
+    \field{volume}{1}
+    \field{journaltitle}{IEEE access}
+    \field{year}{2013}
+  \endentry
+
+  \entry{B}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MS}{%
+         family={Milani},
+         familyi={M\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fontani},
+         familyi={F\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bestagini},
+         familyi={B\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Barni},
+         familyi={B\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Piva},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tagliasacchi},
+         familyi={T\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tubaro},
+         familyi={T\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{MSFMBP+1}
+    \strng{fullhash}{MSFMBPBMPATMTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{An overview on video forensics}
+    \field{volume}{1}
+    \field{journaltitle}{APSIPA Transactions on Signal and Information
+  Processing}
+    \field{year}{2012}
+  \endentry
+
+  \entry{D}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Piva},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi Publishing Corporation}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{An overview on image forensics}
+    \field{volume}{2013}
+    \field{journaltitle}{ISRN Signal Processing}
+    \field{year}{2013}
+  \endentry
+
+  \entry{imagesourceid}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bayar},
+         familyi={B\bibinitperiod},
+         given={Belhassen},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={MatthewC},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BBSM1}
+    \strng{fullhash}{BBSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.2352/ISSN.2470-1173.2017.7.MWSF-328
+    \endverb
+    \field{pages}{77\bibrangedash 86}
+    \field{title}{Design Principles of Convolutional Neural Networks for
+  Multimedia Forensics}
+    \field{volume}{2017}
+    \field{journaltitle}{Electronic Imaging}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
+  \entry{E}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bayar},
+         familyi={B\bibinitperiod},
+         given={Belhassen},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BBSMC1}
+    \strng{fullhash}{BBSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)}
+    \field{pages}{2007\bibrangedash 2011}
+    \field{title}{Towards open set camera model identification using a deep
+  learning framework}
+    \field{year}{2018}
+  \endentry
+
+  \entry{F}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BL}{%
+         family={Bondi},
+         familyi={B\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Baroffio},
+         familyi={B\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={G{\"u}era},
+         familyi={G\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bestagini},
+         familyi={B\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DEJ}{%
+         family={Delp},
+         familyi={D\bibinitperiod},
+         given={Edward\bibnamedelima J},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tubaro},
+         familyi={T\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BLBLGD+1}
+    \strng{fullhash}{BLBLGDBPDEJTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{259\bibrangedash 263}
+    \field{title}{First steps toward camera model identification with
+  convolutional neural networks}
+    \field{volume}{24}
+    \field{journaltitle}{IEEE Signal Processing Letters}
+    \field{year}{2016}
+  \endentry
+
+  \entry{G}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TTH}{%
+         family={Thai},
+         familyi={T\bibinitperiod},
+         given={Thanh\bibnamedelima Hai},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cogranne},
+         familyi={C\bibinitperiod},
+         given={Remi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Retraint},
+         familyi={R\bibinitperiod},
+         given={Florent},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{TTHCRRF1}
+    \strng{fullhash}{TTHCRRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{250\bibrangedash 263}
+    \field{title}{Camera model identification based on the heteroscedastic
+  noise model}
+    \field{volume}{23}
+    \field{journaltitle}{IEEE Transactions on Image Processing}
+    \field{year}{2013}
+  \endentry
+
+  \entry{H}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BS}{%
+         family={Bayram},
+         familyi={B\bibinitperiod},
+         given={Sevinc},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sencar},
+         familyi={S\bibinitperiod},
+         given={Husrev},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Memon},
+         familyi={M\bibinitperiod},
+         given={Nasir},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Avcibas},
+         familyi={A\bibinitperiod},
+         given={Ismail},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BSSHMN+1}
+    \strng{fullhash}{BSSHMNAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE International Conference on Image Processing 2005}
+    \field{pages}{III\bibrangedash 69}
+    \field{title}{Source camera identification based on CFA interpolation}
+    \field{volume}{3}
+    \field{year}{2005}
+  \endentry
+
+  \entry{I}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Swaminathan},
+         familyi={S\bibinitperiod},
+         given={Ashwin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SAWMLKR1}
+    \strng{fullhash}{SAWMLKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{91\bibrangedash 106}
+    \field{title}{Nonintrusive component forensics of visual sensors using
+  output images}
+    \field{volume}{2}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2007}
+  \endentry
+
+  \entry{J}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bayar},
+         familyi={B\bibinitperiod},
+         given={Belhassen},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BBSMC1}
+    \strng{fullhash}{BBSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 IEEE International Conference on Image Processing
+  (ICIP)}
+    \field{pages}{4098\bibrangedash 4102}
+    \field{title}{Augmented convolutional feature maps for robust cnn-based
+  camera model identification}
+    \field{year}{2017}
+  \endentry
+
+  \entry{K}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=ZX}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Xinwei},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ZXSMC1}
+    \strng{fullhash}{ZXSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE International Conference on Image Processing
+  (ICIP)}
+    \field{pages}{151\bibrangedash 155}
+    \field{title}{Computationally efficient demosaicing filter estimation for
+  forensic camera model identification}
+    \field{year}{2016}
+  \endentry
+
+  \entry{L}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CCSMC1}
+    \strng{fullhash}{CCSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2015 IEEE International Workshop on Information Forensics
+  and Security (WIFS)}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Camera model identification framework using an ensemble of
+  demosaicing features}
+    \field{year}{2015}
+  \endentry
+
+  \entry{M}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MF}{%
+         family={Marra},
+         familyi={M\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Poggi},
+         familyi={P\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sansone},
+         familyi={S\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Verdoliva},
+         familyi={V\bibinitperiod},
+         given={Luisa},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MFPGSC+1}
+    \strng{fullhash}{MFPGSCVL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{4765\bibrangedash 4781}
+    \field{title}{A study of co-occurrence based local features for camera
+  model identification}
+    \field{volume}{76}
+    \field{journaltitle}{Multimedia Tools and Applications}
+    \field{year}{2017}
+  \endentry
+
+  \entry{prnu}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LJ}{%
+         family={Lukás},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Goljan},
+         familyi={G\bibinitperiod},
+         given={Miroslav},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJFJGM1}
+    \strng{fullhash}{LJFJGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TIFS.2006.873602
+    \endverb
+    \field{pages}{205 \bibrangedash  214}
+    \field{title}{Digital Camera Identification From Sensor Pattern Noise}
+    \field{volume}{1}
+    \field{journaltitle}{Information Forensics and Security, IEEE Transactions
+  on}
+    \field{month}{07}
+    \field{year}{2006}
+  \endentry
+
+  \entry{N}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Mo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Goljan},
+         familyi={G\bibinitperiod},
+         given={Miroslav},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Luk{\'a}s},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CMFJGM+1}
+    \strng{fullhash}{CMFJGMLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{74\bibrangedash 90}
+    \field{title}{Determining image origin and integrity using sensor noise}
+    \field{volume}{3}
+    \field{journaltitle}{IEEE Transactions on information forensics and
+  security}
+    \field{year}{2008}
+  \endentry
+
+  \entry{O}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LCT}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chang-Tsun},
+         giveni={C\bibinitperiod-T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LCT1}
+    \strng{fullhash}{LCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{280\bibrangedash 287}
+    \field{title}{Source camera identification using enhanced sensor pattern
+  noise}
+    \field{volume}{5}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2010}
+  \endentry
+
+  \entry{P}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KX}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Xiangui},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yinxiang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=QZ}{%
+         family={Qu},
+         familyi={Q\bibinitperiod},
+         given={Zhenhua},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Jiwu},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KXLYQZ+1}
+    \strng{fullhash}{KXLYQZHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{393\bibrangedash 402}
+    \field{title}{Enhancing source camera identification performance with a
+  camera reference phase sensor pattern noise}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2011}
+  \endentry
+
+  \entry{videosourceid}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=HB}{%
+         family={{Hosler}},
+         familyi={H\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={{Mayer}},
+         familyi={M\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={{Bayar}},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={{Zhao}},
+         familyi={Z\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={{Chen}},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJA}{%
+         family={{Shackleford}},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={{Stamm}},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HBMOBB+1}
+    \strng{fullhash}{HBMOBBZXCCSJASMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ICASSP 2019 - 2019 IEEE International Conference on
+  Acoustics, Speech and Signal Processing (ICASSP)}
+    \verb{doi}
+    \verb 10.1109/ICASSP.2019.8682608
+    \endverb
+    \field{issn}{2379-190X}
+    \field{pages}{8271\bibrangedash 8275}
+    \field{title}{A Video Camera Model Identification System Using Deep
+  Learning and Fusion}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Q}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=KK}{%
+         family={Kurosawa},
+         familyi={K\bibinitperiod},
+         given={Kenji},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kuroki},
+         familyi={K\bibinitperiod},
+         given={Kenro},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Saitoh},
+         familyi={S\bibinitperiod},
+         given={Naoki},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KKKKSN1}
+    \strng{fullhash}{KKKKSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings 1999 International Conference on Image
+  Processing (Cat. 99CH36348)}
+    \field{pages}{537\bibrangedash 540}
+    \field{title}{CCD fingerprint method-identification of a video camera from
+  videotaped images}
+    \field{volume}{3}
+    \field{year}{1999}
+  \endentry
+
+  \entry{R}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Mo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Goljan},
+         familyi={G\bibinitperiod},
+         given={Miroslav},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Luk{\'a}{\v{s}}},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {International Society for Optics}%
+      {Photonics}%
+    }
+    \strng{namehash}{CMFJGM+1}
+    \strng{fullhash}{CMFJGMLJ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Security, steganography, and watermarking of multimedia
+  contents IX}
+    \field{pages}{65051G}
+    \field{title}{Source digital camcorder identification using sensor photo
+  response non-uniformity}
+    \field{volume}{6505}
+    \field{year}{2007}
+  \endentry
+
+  \entry{contrastenhance}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=SM}{%
+         family={{Stamm}},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LKJR}{%
+         family={{Liu}},
+         familyi={L\bibinitperiod},
+         given={K.\bibnamedelima J.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMLKJR1}
+    \strng{fullhash}{SMLKJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2008 15th IEEE International Conference on Image
+  Processing}
+    \verb{doi}
+    \verb 10.1109/ICIP.2008.4712454
+    \endverb
+    \field{issn}{1522-4880}
+    \field{pages}{3112\bibrangedash 3115}
+    \field{title}{Blind forensics of contrast enhancement in digital images}
+    \field{year}{2008}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{U}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SMCLKR1}
+    \strng{fullhash}{SMCLKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2010 IEEE International Conference on Acoustics, Speech
+  and Signal Processing}
+    \field{pages}{1698\bibrangedash 1701}
+    \field{title}{Forensic estimation and reconstruction of a contrast
+  enhancement mapping}
+    \field{year}{2010}
+  \endentry
+
+  \entry{V}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DRA}{%
+         family={De\bibnamedelima Rosa},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Alessia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fontani},
+         familyi={F\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Massai},
+         familyi={M\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Piva},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Barni},
+         familyi={B\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DRAFMMM+1}
+    \strng{fullhash}{DRAFMMMPABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{1132\bibrangedash 1136}
+    \field{title}{Second-order statistics analysis to cope with contrast
+  enhancement counter-forensics}
+    \field{volume}{22}
+    \field{journaltitle}{IEEE Signal Processing Letters}
+    \field{year}{2015}
+  \endentry
+
+  \entry{resampling}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={{Kirchner}},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={{Gloe}},
+         familyi={G\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMGT1}
+    \strng{fullhash}{KMGT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2009 First IEEE International Workshop on Information
+  Forensics and Security (WIFS)}
+    \verb{doi}
+    \verb 10.1109/WIFS.2009.5386489
+    \endverb
+    \field{issn}{2157-4766}
+    \field{pages}{21\bibrangedash 25}
+    \field{title}{On resampling detection in re-compressed images}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{S}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PAC}{%
+         family={Popescu},
+         familyi={P\bibinitperiod},
+         given={Alin\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{PACFH1}
+    \strng{fullhash}{PACFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{758\bibrangedash 767}
+    \field{title}{Exposing digital forgeries by detecting traces of resampling}
+    \field{volume}{53}
+    \field{journaltitle}{IEEE Transactions on signal processing}
+    \field{year}{2005}
+  \endentry
+
+  \entry{T}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=PAC}{%
+         family={Popescu},
+         familyi={P\bibinitperiod},
+         given={Alin\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PACFH1}
+    \strng{fullhash}{PACFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Workshop on Information Hiding}
+    \field{pages}{128\bibrangedash 147}
+    \field{title}{Statistical tools for digital forensics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{doubleJPEG}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Luk{\'a}{\v{s}}},
+         familyi={L\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJFJ1}
+    \strng{fullhash}{LJFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proc. Digital forensic research workshop}
+    \field{pages}{5\bibrangedash 8}
+    \field{title}{Estimation of primary quantization matrix in double
+  compressed JPEG images}
+    \field{year}{2003}
+  \endentry
+
+  \entry{W}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BT}{%
+         family={Bianchi},
+         familyi={B\bibinitperiod},
+         given={Tiziano},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Piva},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BTPA1}
+    \strng{fullhash}{BTPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{842\bibrangedash 848}
+    \field{title}{Detection of nonaligned double JPEG compression based on
+  integer periodicity maps}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE transactions on Information Forensics and
+  Security}
+    \field{year}{2011}
+  \endentry
+
+  \entry{X}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BT}{%
+         family={Bianchi},
+         familyi={B\bibinitperiod},
+         given={Tiziano},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Piva},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BTPA1}
+    \strng{fullhash}{BTPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{1003\bibrangedash 1017}
+    \field{title}{Image forgery localization via block-grained analysis of JPEG
+  artifacts}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2012}
+  \endentry
+
+  \entry{lca}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MO}{%
+         family={{Mayer}},
+         familyi={M\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={{Stamm}},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MOSMC1}
+    \strng{fullhash}{MOSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TIFS.2018.2799421
+    \endverb
+    \field{issn}{1556-6013}
+    \field{number}{7}
+    \field{pages}{1762\bibrangedash 1777}
+    \field{title}{Accurate and Efficient Image Forgery Detection Using Lateral
+  Chromatic Aberration}
+    \field{volume}{13}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Y}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=JMK}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Micah\bibnamedelima K},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{JMKFH1}
+    \strng{fullhash}{JMKFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 8th workshop on Multimedia and
+  security}
+    \field{pages}{48\bibrangedash 55}
+    \field{title}{Exposing digital forgeries through chromatic aberration}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Z}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kirchner},
+         familyi={K\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {International Society for Optics}%
+      {Photonics}%
+    }
+    \strng{namehash}{KMFJ1}
+    \strng{fullhash}{KMFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Media forensics and security II}
+    \field{pages}{754110}
+    \field{title}{On detection of median filtering in digital images}
+    \field{volume}{7541}
+    \field{year}{2010}
+  \endentry
+
+  \entry{AA}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KX}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Xiangui},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Anjie},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KXSMCPA+1}
+    \strng{fullhash}{KXSMCPALKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{1456\bibrangedash 1468}
+    \field{title}{Robust median filtering forensics using an autoregressive
+  model}
+    \field{volume}{8}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2013}
+  \endentry
+
+  \entry{BB}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CV}{%
+         family={Christlein},
+         familyi={C\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jordan},
+         familyi={J\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Corinna},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Angelopoulou},
+         familyi={A\bibinitperiod},
+         given={Elli},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CVRCJJ+1}
+    \strng{fullhash}{CVRCJJRCAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1841\bibrangedash 1854}
+    \field{title}{An evaluation of popular copy-move forgery detection
+  approaches}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE Transactions on information forensics and
+  security}
+    \field{year}{2012}
+  \endentry
+
+  \entry{CC}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DCTJ}{%
+         family={De\bibnamedelima Carvalho},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Tiago\bibnamedelima Jos{\'e}},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Angelopoulou},
+         familyi={A\bibinitperiod},
+         given={Elli},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Pedrini},
+         familyi={P\bibinitperiod},
+         given={Helio},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=dRRA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Rezende\bibnamedelima Rocha},
+         familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Anderson},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DCTJRCAE+1}
+    \strng{fullhash}{DCTJRCAEPHRRAd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{1182\bibrangedash 1194}
+    \field{title}{Exposing digital image forgeries by illumination color
+  classification}
+    \field{volume}{8}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2013}
+  \endentry
+
+  \entry{DD}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Xiaoyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SMCCXLKR1}
+    \strng{fullhash}{SMCCXLKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2013 IEEE International Workshop on Information Forensics
+  and Security (WIFS)}
+    \field{pages}{162\bibrangedash 167}
+    \field{title}{Forensically determining the order of signal processing
+  operations}
+    \field{year}{2013}
+  \endentry
+
+  \entry{EE}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Boroumand},
+         familyi={B\bibinitperiod},
+         given={Mehdi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridrich},
+         familyi={F\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Society for Imaging Science}%
+      {Technology}%
+    }
+    \strng{namehash}{BMFJ1}
+    \strng{fullhash}{BMFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Deep learning for detecting processing history of images}
+    \field{volume}{2018}
+    \field{journaltitle}{Electronic Imaging}
+    \field{year}{2018}
+  \endentry
+
+  \entry{FF}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BB}{%
+         family={Bayar},
+         familyi={B\bibinitperiod},
+         given={Belhassen},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Society for Imaging Science}%
+      {Technology}%
+    }
+    \strng{namehash}{BBSMC1}
+    \strng{fullhash}{BBSMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Towards order of processing operations detection in
+  jpeg-compressed images with convolutional neural networks}
+    \field{volume}{2018}
+    \field{journaltitle}{Electronic Imaging}
+    \field{year}{2018}
+  \endentry
+
+  \entry{wang}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weihong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{WWFH1}
+    \strng{fullhash}{WWFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 8th Workshop on Multimedia and
+  Security}
+    \verb{doi}
+    \verb 10.1145/1161366.1161375
+    \endverb
+    \field{isbn}{1-59593-493-6}
+    \field{pages}{37\bibrangedash 47}
+    \field{series}{MM\&\#38;Sec '06}
+    \field{title}{Exposing Digital Forgeries in Video by Detecting Double MPEG
+  Compression}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/1161366.1161375
+    \endverb
+    \list{location}{1}{%
+      {Geneva, Switzerland}%
+    }
+    \field{year}{2006}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{stamm}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMC}{%
+         family={{Stamm}},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LWS}{%
+         family={{Lin}},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LKJR}{%
+         family={{Liu}},
+         familyi={L\bibinitperiod},
+         given={K.\bibnamedelima J.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMCLWSLKJR1}
+    \strng{fullhash}{SMCLWSLKJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TIFS.2012.2205568
+    \endverb
+    \field{issn}{1556-6013}
+    \field{number}{4}
+    \field{pages}{1315\bibrangedash 1329}
+    \field{title}{Temporal Forensics and Anti-Forensics for Motion Compensated
+  Video}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE Transactions on Information Forensics and
+  Security}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{mpeg2}{report}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO Central Secretary}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{number}{ISO/IEC IS 13818-2}
+    \field{shorttitle}{{ISO}/{IEC} {IS} 13818-2}
+    \field{title}{Information technology - {Generic} coding of moving {video}
+  {pictures} and associated {audio} information - part 2: Video}
+    \list{location}{1}{%
+      {Geneva, Switzerland}%
+    }
+    \list{institution}{1}{%
+      {International Organization for Standardization}%
+    }
+    \field{type}{Standard}
+    \field{year}{2008}
+  \endentry
+
+  \entry{h264}{report}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO Central Secretary}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{number}{ISO/IEC IS 14496-10}
+    \field{shorttitle}{{ISO}/{IEC} {IS} 14496-10}
+    \field{title}{Information technology - coding of {audio-visual} objects -
+  part 10: Advanced video coding (avc)}
+    \list{location}{1}{%
+      {Geneva, Switzerland}%
+    }
+    \list{institution}{1}{%
+      {International Organization for Standardization}%
+    }
+    \field{type}{Standard}
+    \field{year}{2010}
+  \endentry
+
+  \entry{h264Overview}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WT}{%
+         family={Wiegand},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SGJ}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={G.\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bjontegaard},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Luthra},
+         familyi={L\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press}%
+    }
+    \strng{namehash}{WTSGJBG+1}
+    \strng{fullhash}{WTSGJBGLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TCSVT.2003.815165
+    \endverb
+    \field{issn}{1051-8215}
+    \field{number}{7}
+    \field{pages}{560\bibrangedash 576}
+    \field{title}{Overview of the H.264/AVC Video Coding Standard}
+    \verb{url}
+    \verb https://doi.org/10.1109/TCSVT.2003.815165
+    \endverb
+    \field{volume}{13}
+    \list{location}{1}{%
+      {Piscataway, NJ, USA}%
+    }
+    \field{journaltitle}{IEEE Trans. Cir. and Sys. for Video Technol.}
+    \field{month}{07}
+    \field{year}{2003}
+  \endentry
+
+  \entry{doubleJPEG2}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=PAC}{%
+         family={Popescu},
+         familyi={P\bibinitperiod},
+         given={Alin\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Farid},
+         familyi={F\bibinitperiod},
+         given={Hany},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PACFH1}
+    \strng{fullhash}{PACFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Workshop on Information Hiding}
+    \field{pages}{128\bibrangedash 147}
+    \field{title}{Statistical tools for digital forensics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{C}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=SMC}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LKR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={KJ\bibnamedelima Ray},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SMCLKR1}
+    \strng{fullhash}{SMCLKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2011 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)}
+    \field{pages}{1876\bibrangedash 1879}
+    \field{title}{Anti-forensics for frame deletion/addition in MPEG video}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Liu}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={{Liu}},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KX}{%
+         family={{Kang}},
+         familyi={K\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJKX1}
+    \strng{fullhash}{LJKX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 Asia-Pacific Signal and Information Processing
+  Association Annual Summit and Conference (APSIPA)}
+    \verb{doi}
+    \verb 10.1109/APSIPA.2016.7820694
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Exposing heterogeneous chain of video recompression}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Mandelli}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=MS}{%
+         family={{Mandelli}},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={{Bestagini}},
+         familyi={B\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={{Tubaro}},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={{Cozzolino}},
+         familyi={C\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={{Verdoliva}},
+         familyi={V\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MSBPTS+1}
+    \strng{fullhash}{MSBPTSCDVL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 26th European Signal Processing Conference
+  (EUSIPCO)}
+    \verb{doi}
+    \verb 10.23919/EUSIPCO.2018.8553511
+    \endverb
+    \field{issn}{2076-1465}
+    \field{pages}{1362\bibrangedash 1366}
+    \field{title}{Blind Detection and Localization of Video Temporal Splicing
+  Exploiting Sensor-Based Footprints}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Vazquez}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=VD}{%
+         family={{Vazquez-Padin}},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Fontani}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={{Bianchi}},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={{Comesana}},
+         familyi={C\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={{Piva}},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={{Barni}},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VDFMBT+1}
+    \strng{fullhash}{VDFMBTCPPABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2012 IEEE International Workshop on Information Forensics
+  and Security (WIFS)}
+    \verb{doi}
+    \verb 10.1109/WIFS.2012.6412641
+    \endverb
+    \field{issn}{2157-4766}
+    \field{pages}{151\bibrangedash 156}
+    \field{title}{Detection of video double encoding with GOP size estimation}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{barni}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=GA}{%
+         family={{Gironi}},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Fontani}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={{Bianchi}},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={{Piva}},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={{Barni}},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAFMBT+1}
+    \strng{fullhash}{GAFMBTPABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2014 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)}
+    \verb{doi}
+    \verb 10.1109/ICASSP.2014.6854801
+    \endverb
+    \field{issn}{1520-6149}
+    \field{pages}{6226\bibrangedash 6230}
+    \field{title}{A video forensic technique for detecting frame deletion and
+  insertion}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ARmodels}{inbook}{}
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \field{labeltitlesource}{title}
+    \field{chapter}{1}
+    \field{title}{Adaptive Filter Theory}
+    \field{year}{2002}
+  \endentry
+
+  \entry{svm}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CC}{%
+         family={Cortes},
+         familyi={C\bibinitperiod},
+         given={Corinna},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vapnik},
+         familyi={V\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCVV1}
+    \strng{fullhash}{CCVV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/BF00994018
+    \endverb
+    \field{issn}{1573-0565}
+    \field{number}{3}
+    \field{pages}{273\bibrangedash 297}
+    \field{title}{Support-vector networks}
+    \verb{url}
+    \verb https://doi.org/10.1007/BF00994018
+    \endverb
+    \field{volume}{20}
+    \field{journaltitle}{Machine Learning}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{plattscaling}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Platt},
+         familyi={P\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Probabilistic Outputs for Support Vector Machines and
+  Comparisons to Regularized Likelihood Methods}
+    \field{volume}{10}
+    \field{journaltitle}{Adv. Large Margin Classif.}
+    \field{month}{06}
+    \field{year}{2000}
+  \endentry
+\endsortlist
+\endinput
